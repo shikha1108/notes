@@ -7,6 +7,10 @@
 
 * Change to a directory
 `cd`
+Example:
+Go to root: `cd /`
+Go to home directory: `cd ~`
+Go to dir1: `cd dir1`
 
 * Move a directory
 `mv`
