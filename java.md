@@ -1,9 +1,15 @@
 # java
-* Java variables.
-` String  stores text
-for example : String myText = "Hello";
-int  stores integerwhole numbers)
-for example : int myNum = 5;
+### Java variables.
+`String`  stores text
+for example  
+```java
+String myText = "Hello";
+```
+`int` stores integer(whole numbers)
+for example
+```java
+int myNum = 5;
+```
 float stores floating point numbers with decimals 
 for example : float myFloatNum = 5.99f;
 char stores single character value
