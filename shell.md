@@ -28,6 +28,7 @@ remove a diectory vegetable from Downlods directory.
 `rm -r /Users/shikha/Downloads/vegetable`
 
 * Copy a file or directory 
+
 We can use `cp` command to copy a file or directory.
 Examples
 ```shell
