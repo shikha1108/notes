@@ -24,9 +24,15 @@ Go to dir1: `cd dir1`
 
 Example:
 ```shell
-move a directory to another path directory with absolute path`mv  /Users/shikha/Documents/dir_name  /Users/shikha/Downloads`
-move a directory to another path directory (from downlods) with relative path `mv vegie3.txt ../../Documents`
-move a directory with the files and directory to another path directory
+# move a directory to another path directory with absolute path  
+`mv` ~/Documents/dir_name  ~/Downloads
+
+# move a directory to another path directory (from downlods) with relative path 
+
+`mv` vegie3.txt ../../Documents
+
+# this command will move test dir along with all its files to ~/Downloads
+
 mv -r ~/Documents/test ~/Downloads
 ```
 
@@ -109,6 +115,7 @@ tail -n 2 example.txt
 * uniq
 ```shell
 new.txt wc -l | uniq
+
 ```
 
 
