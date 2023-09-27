@@ -39,4 +39,27 @@ git push -u origin main
 ```git 
 git branch
 ```
+* checkout to main branch
+``` git 
+git checkout main
+```
+
+* create a new branch
+```git
+git checkout - b feature
+```
+* add file in git repo
+```git
+git add file_name
+```
+
+* commit code
+```git
+git commit -m "message"
+```
+
+* push code
+```git
+git push origin main
+```
 
