@@ -2,7 +2,7 @@
 
 ### create a local git repository
 
-```git
+```shell
 $mkdir myproject # this will create a directory.
 $cd myproject
 $git init # this will initialize myoroject directory as a git repo.
@@ -10,7 +10,7 @@ $git init # this will initialize myoroject directory as a git repo.
 
 ### create a file with touch command
 
- ```git 
+ ```shell
  touch new.txt # this will create a file in myproject git repo.
  ```
 * create a new repository on the command line
