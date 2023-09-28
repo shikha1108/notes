@@ -5,7 +5,7 @@
 ```shell
 $ mkdir myproject # this will create a directory.
 $ cd myproject
-$ git init # this will initialize myoroject directory as a git repo.
+$ git init # this will initialize myproject directory as a git repo.
  ```
 
 ### Create a file
@@ -25,16 +25,14 @@ $ git branch -M main
 $ git remote add origin git@github.com:shikha1108/test-repo.git
 $ git push -u origin main
 
-#we can use these command to set a remote in local repo for git.
+#we can use these commands to set a remote in local repo for git.
 ```
 
 ### Push an existing repository from the command line
 ```shell
-$ git remote add origin git@github.com:shikha1108/test-repo.git
-$ git branch -M main
-$ git push -u origin main
-
-#this will set a remote in myproject repo.
+$ git remote add origin git@github.com:shikha1108/test-repo.git  #this will set a remote in myproject repo.
+$ git branch -M main  # this will change the master branch name in main.
+$ git push -u origin main # this will use to push code in git hub. 
 ```
 ### To check branches
 ```shell
