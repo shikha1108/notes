@@ -1,27 +1,28 @@
 ## Git  commands
 
-### create a local git repository
+### Create a local git repository
 
 ```shell
-$mkdir myproject # this will create a directory.
-$cd myproject
-$git init # this will initialize myoroject directory as a git repo.
+$ mkdir myproject # this will create a directory.
+$ cd myproject
+$ git init # this will initialize myoroject directory as a git repo.
  ```
 
-### create a file with touch command
+### Create a file with touch command
 
  ```shell
  touch new.txt # this will create a file in myproject git repo.
  ```
-* create a new repository on the command line
+### Create a new repository on the command line
 echo "# test-repo" >> README.md
-```git
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin git@github.com:shikha1108/test-repo.git
-git push -u origin main
+```shell
+$ git init
+$ git add README.md
+$ git commit -m "first commit"
+$ git branch -M main
+$ git remote add origin git@github.com:shikha1108/test-repo.git
+$ git push -u origin main
+
 #we can use these command to set a remote in local repo for git.
  
 ```
