@@ -27,43 +27,45 @@ $ git push -u origin main
  
 ```
 
-*  push an existing repository from the command line
-```git
-git remote add origin git@github.com:shikha1108/test-repo.git
-git branch -M main
-git push -u origin main
+### push an existing repository from the command line
+```shell
+$ git remote add origin git@github.com:shikha1108/test-repo.git
+$ git branch -M main
+$ git push -u origin main
+
 #this will set a remote in myproject repo.
 ```
-* check branch
-```git 
-git branch
-# this will create display the branches in terminal.
+### check branch
+```shell
+$ git branch
+
+# this will display the branches in terminal.
 ```
-* checkout to main branch
-``` git 
-git checkout main
-# this will took in main branch
+#### checkout to branchname
+``` shell
+$ git checkout branch_name
+# this command is used to switch branches
 ```
 
-* create a new branch
-```git
-git checkout - b feature
+### create a new branch
+```shell
+$ git checkout - b branch_name
 # this will create a new branch.
 ```
-* add file in git repo
-```git
+### add file in git repo
+```shell
 git add file_name
 # this will add file in repo.
 ```
 
-* commit code
-```git
+### commit code
+```shell
 git commit -m "message"
 # this command will commit code in github.
 ```
 
-* push code
-```git
+### push code
+```shell
 git push origin main
 #c this command is used to push the code in git repo.
 ```
