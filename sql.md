@@ -55,12 +55,10 @@ VALUES
 
 ### how to find unique data(distinct)
 ```shell
-`select distinct Name, Age 
-from student;                #this command will find and display distinct(unique)student deatils.
+`select distinct Name, Age from student;`                #this command will find and display distinct(unique)student deatils.
 
 
-`select distinct Name, Age 
-from student asc/desc;`      #this command will display find and distinct(unique)student deatils with asending or desending order.
+`select distinct Name, Age from student asc/desc;`      #this command will display find and distinct(unique)student deatils with asending or desending order.
 
 
 ```
