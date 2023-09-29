@@ -6,6 +6,7 @@
 ### How to install mysql on mac.
 ```shell
 `$brew install mysql`                  # we use this command to install mysql database in our local machine.
+
 `$brew services start mysql`           # we us ethis command to start mysql in our local machine.
 ```
 ### how to log in in mysql.
@@ -56,7 +57,9 @@ VALUES
 ```shell
 `select distinct Name, Age 
 from student;                #this command will find and display distinct(unique)student deatils.
-select distinct Name, Age 
+
+
+`select distinct Name, Age 
 from student asc/desc;`      #this command will display find and distinct(unique)student deatils with asending or desending order.
 
 
