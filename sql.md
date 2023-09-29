@@ -3,15 +3,20 @@
 ## Mysql
 
 
-* How to install mysql on mac.
+### How to install mysql on mac.
+```shell
 `brew install mysql`
 `brew services start mysql`
-
-* how to log in in mysql.
-`mysql -u root`
+```
+#### how to log in in mysql.
+```shell
+`$mysql -u root`
+```
 
  * how to select data of the table.
- `select * from table_name`
+ ```mysql
+ `mysql>select * from table_name`
+ ```
 
  * how to create database.
  `create database database_name`
