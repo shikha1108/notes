@@ -37,8 +37,8 @@
 ```shell
 INSERT INTO student (StudentID, Name, Age, Address)
 VALUES
-    (1, 'Abhi', 20, '123 Main St, USA'),
-    (2, 'Sara', 22, '456 Elm St, USA');   #this query will insert data in the above table
+    (1, 'Elle', 20, '123 Main St, USA'),
+    (2, 'Bob', 22, '456 Elm St, USA');   #this query will insert data in the above table
 ```
  
 ### how to drop DB.
@@ -57,48 +57,62 @@ VALUES
 ```shell
 `select distinct Name, Age from student;`                #this command will find and display distinct(unique)student deatils.
 
-
 `select distinct Name, Age from student asc/desc;`      #this command will display find and distinct(unique)student deatils with asending or desending order.
 
 
 ```
 
 ### how to sort data(order by)
-`select cloumn1, column2 from table_name
-order by column1, column2`
+```shell
+`select * from student            # we can also give coilumn name here
+order by Name asc, Age asc`       #  this query will order(sort)the student table by their column
+```
 
 ### how to update exiting table data
-`update tabel_name
-set column1 = value1, column2
-where customer_name = shi;`
-
+```shell
+`UPDATE Students
+SET Age = 25, Address = 'New Address'
+WHERE Name = 'Bob';`      # this query will update bob record in this table.
+```
 ### delete
 
 * how to  delete all data of one person in a table
-`delete from table_name where customer_name = ''shi;`
+```shell
+`delete from student where Name = 'Sara';`  #this query will delete all record(data) of the given student.
+
 * delete all records
-`delete from table_name;`
-* delete a table 
-`drop table tbale_name;`
+`delete from student`  #this query will delete all ecords(data) from student table.
+
+* delete a table
+`drop table student;` #this query will delete student table.
+
+* delete a column
+`alter table Students
+drop column Address`    #this query will delete address column from student table
+```
 
 ### how to find min
-`slesct min(column_name)
-from table_name;`
+```shell
+`slect min(Age)
+from student;`        #this query will find min age from the student table 
+```
 
 ### how to find max
-`slesct max(column_name)
-from table_name;`
+```shell
+`slect max(age)
+from student;`                #this query will find max age from the student table 
+```
 
 ### how to count 
+```shell
 `select count(*)
-from products`
-### count with where clause
+from products`    # count with where clause
 `select count(colunm_name)
 from tabel_name
-where condition = any`
-### count distinct in a column
+where condition = any` # count distinct in a column
 `select count(distinct condition)
-from tabel_name;`  
+from tabel_name;`
+```  
 
 
 
