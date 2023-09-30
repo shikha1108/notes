@@ -64,8 +64,8 @@ VALUES
 
 ### how to sort data(order by)
 ```shell
-`select * from student            # we can also give coilumn name here
-order by Name asc, Age asc`       #  this query will order(sort)the student table by their column
+`select * from student            # we can also give column name here
+order by Name asc, Age asc;`       #  this query will order(sort)the student table by their column
 ```
 
 ### how to update exiting table data
