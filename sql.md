@@ -5,17 +5,17 @@
 
 ### How to install mysql on mac.
 ```shell
-`$brew install mysql`                  # we use this command to install mysql database in our local machine.
+$brew install mysql                  # we use this command to install mysql database in our local machine.
 
-`$brew services start mysql`           # we use this command to start mysql in our local machine.
+$brew services start mysql           # we use this command to start mysql in our local machine.
 ```
 ### how to log in in mysql.
 ```shell
-`$mysql -u root`                       # this command will login into mysql server.
+$mysql -u root                       # this command will login into mysql server.
 ```
 ### how to create database.
 ```shell
-`mysql>create database student;`          #this query will create a database.
+mysql>create database student;         #this query will create a database.
 ```
 
 ### how to create a table.
@@ -24,7 +24,7 @@ mysql>create table student (
     StudentID INT PRIMARY KEY,
     Name VARCHAR(100),
     Age INT,
-    Address VARCHAR(255);   #this query will create this table
+    Address VARCHAR(255)   #this query will create this table
 );
 ```
 
@@ -38,22 +38,22 @@ VALUES
 
   ### how to select data of the table.
  ```shell
-`mysql>select * from student;`        #this query will display the record of student table
+mysql>select * from student;      #this query will display the record of student table
  ```
 
-### how to find unique data(distinct)
+### how to find unique data(`distinct`)
 ```shell
-`mysql>select distinct Name, Age from student;`                #this command will find and display distinct(unique)student deatils.
+mysql>select distinct Name, Age from student;               #this command will find and display distinct(unique)student deatils.
 
-`mysql>select distinct Name, Age from student asc/desc;`      #this command will display find and distinct(unique)student deatils with asending or desending order.
+mysql>select distinct Name, Age from student asc/desc;     #this command will display find and distinct(unique)student deatils with asending or desending order.
 
 
 ```
 
-### how to sort data(order by)
+### how to sort data(`order by`)
 ```shell
-`mysql>select * from student            # we can also give column name here
-order by Name asc, Age asc;`       #  this query will order(sort)the student table by their column
+mysql>select * from student            # we can also give column name here
+order by Name asc, Age asc;      #  this query will order(sort)the student table by their column
 ```
 
 ### how to update exiting table data
