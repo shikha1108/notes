@@ -20,7 +20,7 @@
 
 ### how to create a table.
 ```shell
- Create table student (
+mysql>create table student (
     StudentID INT PRIMARY KEY,
     Name VARCHAR(100),
     Age INT,
@@ -30,7 +30,7 @@
 
 ### How to insert data in a table.
 ```shell
-insert into student (StudentID, Name, Age, Address)
+mysql>insert into student (StudentID, Name, Age, Address)
 VALUES
     (1, 'Elle', 20, '123 Main St, USA'),
     (2, 'Bob', 22, '456 Elm St, USA');   #this query will insert data in the above table
@@ -43,65 +43,65 @@ VALUES
 
 ### how to find unique data(distinct)
 ```shell
-`select distinct Name, Age from student;`                #this command will find and display distinct(unique)student deatils.
+`mysql>select distinct Name, Age from student;`                #this command will find and display distinct(unique)student deatils.
 
-`select distinct Name, Age from student asc/desc;`      #this command will display find and distinct(unique)student deatils with asending or desending order.
+`mysql>select distinct Name, Age from student asc/desc;`      #this command will display find and distinct(unique)student deatils with asending or desending order.
 
 
 ```
 
 ### how to sort data(order by)
 ```shell
-`select * from student            # we can also give column name here
+`mysql>select * from student            # we can also give column name here
 order by Name asc, Age asc;`       #  this query will order(sort)the student table by their column
 ```
 
 ### how to update exiting table data
 ```shell
-`update student
+`mysql>update student
 set Age = 25, Address = 'New Address'
 where Name = 'Bob';`      # this query will update bob record in this table.
 ```
 
 ### how to find min
 ```shell
-`slect min(Age)
+`mysql>slect min(Age)
 from student;`        #this query will find min age from the student table 
 ```
 
 ### how to find max
 ```shell
-`slect max(age)
+`mysql>slect max(age)
 from student;`                #this query will find max age from the student table 
 ```
 
 ### how to count 
 ```shell
-`select count(*) from products;`    # count with where clause
-`select count(colunm_name) from tabel_name
+`mysql>select count(*) from products;`    # count with where clause
+`mysql>select count(colunm_name) from student
 where condition = any` # count distinct in a column
-`select count(distinct condition)from tabel_name;`
+`mysql>select count(distinct condition)from tabel_name;`
 ``` 
 
 ### delete
 * how to  delete all data of one person in a table
 ```shell
-`delete from student where Name = 'Sara';`  #this query will delete all record(data) of the given student.
+`mysql>delete from student where Name = 'Sara';`  #this query will delete all record(data) of the given student.
 
 * delete all records
-`delete from student;`  #this query will delete all ecords(data) from student table.
+`mysql>delete from student;`  #this query will delete all ecords(data) from student table.
 
 * delete a table
-`drop table student;` #this query will delete student table.
+`mysql>drop table student;` #this query will delete student table.
 
 * delete a column
-`alter table Students
+`mysql>alter table Students
 drop column Address;`    #this query will delete address column from student table
 ```
 
 ### how to drop DB.
 ```shell
- `drop database student;`
+ `mysql>drop database student;`
  ```
 
 ### how to backup DB
