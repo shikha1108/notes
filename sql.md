@@ -7,21 +7,16 @@
 ```shell
 `$brew install mysql`                  # we use this command to install mysql database in our local machine.
 
-`$brew services start mysql`           # we us ethis command to start mysql in our local machine.
+`$brew services start mysql`           # we use this command to start mysql in our local machine.
 ```
 ### how to log in in mysql.
 ```shell
-`$mysql -u root`                       # this command will log into mysql server.
+`$mysql -u root`                       # this command will login into mysql server.
 ```
 ### how to create database.
 ```shell
 `mysql>create database student;`          #this query will create a database.
 ```
-
- ### how to select data of the table.
- ```shell
-`mysql>select * from student;`        #
- ```
 
 ### how to create a table.
 ```shell
@@ -40,18 +35,11 @@ VALUES
     (1, 'Elle', 20, '123 Main St, USA'),
     (2, 'Bob', 22, '456 Elm St, USA');   #this query will insert data in the above table
 ```
- 
-### how to drop DB.
-```shell
- `drop database student;`
- ```
 
-### how to backup DB
-```shell
- `backup database student
- to disk = ~/Downloads/backupstudentdata.txt` 
-```
- 
+  ### how to select data of the table.
+ ```shell
+`mysql>select * from student;`        #this query will display the record of student table
+ ```
 
 ### how to find unique data(distinct)
 ```shell
@@ -70,25 +58,9 @@ order by Name asc, Age asc;`       #  this query will order(sort)the student tab
 
 ### how to update exiting table data
 ```shell
-`update Students
+`update student
 set Age = 25, Address = 'New Address'
 where Name = 'Bob';`      # this query will update bob record in this table.
-```
-### delete
-
-* how to  delete all data of one person in a table
-```shell
-`delete from student where Name = 'Sara';`  #this query will delete all record(data) of the given student.
-
-* delete all records
-`delete from student;`  #this query will delete all ecords(data) from student table.
-
-* delete a table
-`drop table student;` #this query will delete student table.
-
-* delete a column
-`alter table Students
-drop column Address;`    #this query will delete address column from student table
 ```
 
 ### how to find min
@@ -109,7 +81,35 @@ from student;`                #this query will find max age from the student tab
 `select count(colunm_name) from tabel_name
 where condition = any` # count distinct in a column
 `select count(distinct condition)from tabel_name;`
-```  
+``` 
+
+### delete
+* how to  delete all data of one person in a table
+```shell
+`delete from student where Name = 'Sara';`  #this query will delete all record(data) of the given student.
+
+* delete all records
+`delete from student;`  #this query will delete all ecords(data) from student table.
+
+* delete a table
+`drop table student;` #this query will delete student table.
+
+* delete a column
+`alter table Students
+drop column Address;`    #this query will delete address column from student table
+```
+
+### how to drop DB.
+```shell
+ `drop database student;`
+ ```
+
+### how to backup DB
+```shell
+ `backup database student
+ to disk = ~/Downloads/backupstudentdata.txt` 
+```
+
 
 
 
