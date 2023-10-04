@@ -15,7 +15,7 @@ $mysql -u root                       # this command will login into mysql server
 ```
 ### how to create database.
 ```shell
-mysql>create database student;         #this query will create a database.
+mysql>create database school;         #this query will create a database.
 ```
 
 ### how to create a table.
@@ -56,58 +56,59 @@ mysql>select * from student            # we can also give column name here
 order by Name asc, Age asc;      #  this query will order(sort)the student table by their column
 ```
 
-### how to update exiting table data
+### how to `update` exiting table data
 ```shell
-`mysql>update student
+mysql>update student
 set Age = 25, Address = 'New Address'
-where Name = 'Bob';`      # this query will update bob record in this table.
+where Name = 'Bob';      # this query will update bob record in this table.
 ```
 
-### how to find min
+### how to find `min`
 ```shell
-`mysql>slect min(Age)
-from student;`        #this query will find min age from the student table 
+mysql>select min(Age)
+from student;        #this query will find min age from the student table 
 ```
 
-### how to find max
+### how to find `max`
 ```shell
-`mysql>slect max(age)
-from student;`                #this query will find max age from the student table 
+mysql>select max(age)
+from student;                  #this query will find max age from the student table 
 ```
 
-### how to count 
+### how to `count` 
 ```shell
-`mysql>select count(*) from products;`    # count with where clause
-`mysql>select count(colunm_name) from student
-where condition = any` # count distinct in a column
-`mysql>select count(distinct condition)from tabel_name;`
+mysql>select count(*) from products;     # count with where clause
+mysql>select count(colunm_name) from student
+where condition = any     # count distinct in a column
+mysql>select count(distinct condition)from tabel_name;
 ``` 
 
-### delete
-* how to  delete all data of one person in a table
+### `delete`
+
 ```shell
-`mysql>delete from student where Name = 'Sara';`  #this query will delete all record(data) of the given student.
+* how to  delete all data of one person in a table
+mysql>delete from student where Name = 'Sara';    #this query will delete all record(data) of the given student.
 
 * delete all records
-`mysql>delete from student;`  #this query will delete all ecords(data) from student table.
+mysql>delete from student;  #this query will delete all ecords(data) from student table.
 
 * delete a table
-`mysql>drop table student;` #this query will delete student table.
+mysql>drop table student; #this query will delete student table.
 
 * delete a column
-`mysql>alter table Students
-drop column Address;`    #this query will delete address column from student table
+mysql>alter table Students
+drop column Address;    #this query will delete address column from student table
 ```
 
-### how to drop DB.
+### how to `drop DB`.
 ```shell
- `mysql>drop database student;`
+mysql>drop database student;
  ```
 
-### how to backup DB
+### how to `backup DB`
 ```shell
- `backup database student
- to disk = ~/Downloads/backupstudentdata.txt` 
+backup database student
+to disk = ~/Downloads/backupstudentdata.txt
 ```
 
 
