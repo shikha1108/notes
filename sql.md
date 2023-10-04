@@ -21,7 +21,7 @@ mysql>create database school;         #this query will create a database.
 ### how to create a table.
 ```shell
 mysql>create table student (
-    StudentID INT PRIMARY KEY,
+    INT PRIMARY KEY,
     Name VARCHAR(100),
     Age INT,
     Address VARCHAR(255)   #this query will create this table
