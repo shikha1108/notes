@@ -37,4 +37,21 @@
 
 `Command + Alt + Left/Right Arrow`   #this command wiil navigate between open editor tabs.
 
-`Command + F12`    #this command wiil show the file structure (outline of the current file).
+`Command + F12`    #this command wiil show the file structure (outline of the current file)
+
+
+## Debugger Shortcuts:
+
+`F8`     #this command will Step over (debugging)
+
+`F7` #step into (debugging).
+
+`Shift + F7`    #this command will smart step into (debugging).
+
+`Shift + F8` #this command will step out (debugging).
+
+`Command + F8` #this command will toggle breakpoint.
+
+`Command + Shift + F8` #this command will open the breakpoint dialog.
+
+`Alt + Command + F9` #this command will debug the current file.
