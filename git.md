@@ -61,4 +61,7 @@ git commit -m "message"   # this command will commit code in github.
 ```shell
 git push origin main    # this command is used to push the code in git repo.
 ```
-
+### git log
+```shell
+git log #this command will display all the commit
+```
