@@ -2,16 +2,18 @@
 
 ## General Shortcuts
 
-* Save changes to the current file.
+```  command + s      #Save changes to the current file.```
+
+ 
+* Undo the last action.
 
 ```
-command + s
-```  
+Command + Z
+``` 
 
-`Command + Z` #this command wiil undo the last action.
+* Redo the last undone action.
 
-`Command + Shift + Z or Command + Y`  #this commadn wiil redo the last undone action.
-
+```Command + Shift + Z or Command + Y```
 `Command + C`  #this command wiil copy selected text or code.
 
 `Command + X`    #this command wiil cut selected text or code.
