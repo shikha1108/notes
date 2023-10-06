@@ -2,50 +2,69 @@
 
 ## General Shortcuts
 
-```  command + s      #Save changes to the current file.```
+* Save changes to the current file.
+
+```  command + s      
+```
 
  
 * Undo the last action.
 
-```
-Command + Z
+```command + z
 ``` 
 
 * Redo the last undone action.
 
-```Command + Shift + Z or Command + Y```
-`Command + C`  #this command wiil copy selected text or code.
+```command + Shift + Z or Command + Y
+```
 
-`Command + X`    #this command wiil cut selected text or code.
+* copy selected text or code.
+```command + c
+```
 
-`Command + V`    #this command wiil paste copied or cut text or code.
+* Cut selected text or code.
+```command + x
+```
 
-`Command + D`: #this command wiil duplicate the current line or selection.
+* Paste copied or cut text or code.
+```command + v
+```
 
-`Command + F`: #this command wiil open the Find dialog.
+* Duplicate the current line or selection.
+```command + d
+```
 
-`Command + R`: #this command wiil open the Replace dialog.
+* open the Find dialog.
+```
+command + f
+```
 
-`Command + alt + l`   #this command will refactor code.
+ * open the Replace dialog.
+```command + r
+``` 
+
+* Refactor code.
+```command + alt + l
+```   
 
 
 ## Navigation Shortcuts
 
-`Command + O`            #this command wiil open a class by name.
+`command + o`            #this command wiil open a class by name.
 
-`Command + Shift + O`    #this command will open a file by name.
+`command + Shift + o`    #this command will open a file by name.
 
-`Command + E`    #this command wiil view recent files.
+`command + e`    #this command wiil view recent files.
 
-`Command + G`     #this command wiil navigate to a specific line.
+`command + g`     #this command wiil navigate to a specific line.
 
-`Command + Left/Right Arrow`  #this command wiil navigate back/forward to the previously visited locations.
+`command + Left/Right Arrow`  #this command wiil navigate back/forward to the previously visited locations.
 
-`Command + B or Command + Click`    #this command wiil go to the declaration of the selected symbol.
+`command + b or Command + Click`    #this command wiil go to the declaration of the selected symbol.
 
-`Command + Alt + Left/Right Arrow`   #this command wiil navigate between open editor tabs.
+`command + Alt + Left/Right Arrow`   #this command wiil navigate between open editor tabs.
 
-`Command + F12`    #this command wiil show the file structure (outline of the current file)
+`command + F12`    #this command wiil show the file structure (outline of the current file)
 
 
 ## Debugger Shortcuts:
