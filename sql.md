@@ -111,6 +111,20 @@ backup database student
 to disk = ~/Downloads/backupstudentdata.txt
 ```
 
+### join
+```shell
+* inner join 
+mysql> select student.Id, student.Name, course.courseName from student inner join course on student.ID = course.studentId;  #this query will join the student and course table
+
+* left join
+mysql> select student.Id, student.name, course.courseName from student left join course  on course.studentID = student.ID; #this query will return all records from the left table (Student), and the matching records from the right table (Course). If there is no match, NULL values will be shown for columns from the Course table.
+
+* right join
+mysql> select student.Id, student.name, course.courseName from student right join course  on course.studentID = student.ID; #this query will return all records from the right table (Course), and the matching records from the left table (Student).
+```
+
+
+
 
 
 
