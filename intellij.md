@@ -19,19 +19,23 @@
 ```
 
 * copy selected text or code.
-```command + c
+```
+command + c
 ```
 
 * Cut selected text or code.
-```command + x
+```
+command + x
 ```
 
 * Paste copied or cut text or code.
-```command + v
+```
+command + v
 ```
 
 * Duplicate the current line or selection.
-```command + d
+```
+command + d
 ```
 
 * open the Find dialog.
@@ -40,11 +44,13 @@ command + f
 ```
 
  * open the Replace dialog.
-```command + r
+```
+command + r
 ``` 
 
 * Refactor code.
-```command + alt + l
+```
+command + alt + l
 ```   
 
 
