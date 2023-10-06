@@ -4,7 +4,9 @@
 
 * Save changes to the current file.
 
-`Command + s`   
+```
+command + s
+```  
 
 `Command + Z` #this command wiil undo the last action.
 
