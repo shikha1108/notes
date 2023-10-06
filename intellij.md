@@ -2,7 +2,9 @@
 
 ## General Shortcuts
 
-`Command + S`    #this command will save changes to the current file.
+* Save changes to the current file.
+
+`Command + s`   
 
 `Command + Z` #this command wiil undo the last action.
 
@@ -19,6 +21,8 @@
 `Command + F`: #this command wiil open the Find dialog.
 
 `Command + R`: #this command wiil open the Replace dialog.
+
+`Command + alt + l`   #this command will refactor code.
 
 
 ## Navigation Shortcuts
