@@ -4,18 +4,21 @@
 
 * Save changes to the current file.
 
-```  command + s      
+```  
+command + s      
 ```
 
  
 * Undo the last action.
 
-```command + z
+```
+command + z
 ``` 
 
 * Redo the last undone action.
 
-```command + Shift + Z or Command + Y
+```
+command + Shift + Z or Command + Y
 ```
 
 * copy selected text or code.
