@@ -59,35 +59,91 @@ command + alt + l
 
 ## Navigation Shortcuts
 
-`command + o`            #this command wiil open a class by name.
+* Open a class by name.
 
-`command + Shift + o`    #this command will open a file by name.
+```
+command + o
+```
 
-`command + e`    #this command wiil view recent files.
+* Open a file by name.
 
-`command + g`     #this command wiil navigate to a specific line.
+```
+command + Shift + o
+```  
 
-`command + Left/Right Arrow`  #this command wiil navigate back/forward to the previously visited locations.
+ * View recent files.
 
-`command + b or Command + Click`    #this command wiil go to the declaration of the selected symbol.
+```
+command + e
+```
 
-`command + Alt + Left/Right Arrow`   #this command wiil navigate between open editor tabs.
+* Navigate to a specific line.
 
-`command + F12`    #this command wiil show the file structure (outline of the current file)
+```
+command + g
+```
+
+* Navigate back/forward to the previously visited locations.
+
+```
+command + Left/Right Arrow
+```
+
+* Go to the declaration of the selected symbol.
+
+```
+command + b or Command + Click
+
+```
+
+* Navigate between open editor tabs.
+
+```
+command + Alt + Left/Right Arrow
+
+```
+
+* show the file structure (outline of the current file)
+
+```
+command + F12
+```   
+
 
 
 ## Debugger Shortcuts:
 
-`F8`     #this command will Step over (debugging)
 
-`F7` #step into (debugging).
+*  Step over (debugging)
+```
+F8
+```
 
-`Shift + F7`    #this command will smart step into (debugging).
+*  #step into (debugging).
+```
+F7
+```
+* Smart step into (debugging).
+```
+Shift + F7
+``` 
 
-`Shift + F8` #this command will step out (debugging).
+* Step out (debugging).
+```
+Shift + F8
+``` 
 
-`Command + F8` #this command will toggle breakpoint.
+* Toggle breakpoint.
+```
+Command + F8
+``` 
 
-`Command + Shift + F8` #this command will open the breakpoint dialog.
+• Open the breakpoint dialog.
+```
+Command + Shift + F8
+```
 
-`Alt + Command + F9` #this command will debug the current file.
+* Debug the current file.
+```
+Alt + Command + F9
+```
