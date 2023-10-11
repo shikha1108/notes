@@ -4,19 +4,19 @@
 
 * List all files in a directory
 ```shell
-`ls`
+ls
 Example:
-list the files in documents directory: `ls ~/Documents`
-`ls -l`
-list the files with details in documnets directory: `ls -l ~/Documents`
+list the files in documents directory: ls ~/Documents
+ls -l
+list the files with details in documnets directory: ls -l ~/Documents
 ```
 * Change to a directory
-`cd`
+cd
 ```shell
 Example:
-Go to root: `cd /`
-Go to home directory: `cd ~`
-Go to dir1: `cd dir1`
+Go to root: cd /
+Go to home directory: cd ~
+Go to dir1: cd dir1
 ```
 
 * Move a directory
@@ -25,11 +25,11 @@ Go to dir1: `cd dir1`
 Example:
 ```shell
 # move a directory to another path directory with absolute path  
-`mv` ~/Documents/dir_name  ~/Downloads
+mv ~/Documents/dir_name  ~/Downloads
 
 # move a directory to another path directory (from downlods) with relative path 
 
-`mv` vegie3.txt ../../Documents
+mv vegie3.txt ../../Documents
 
 # this command will move test dir along with all its files to ~/Downloads
 
@@ -42,12 +42,14 @@ mv -r ~/Documents/test ~/Downloads
 Example:
 ```shell
 remove a diectory vegetable from Downlods directory.
-`rm -r /Users/shikha/Downloads/vegetable`
+rm -r /Users/shikha/Downloads/vegetable
 ```
 
 * Copy a file or directory 
-`cp`
+```shell
+cp
 We can use `cp` command to copy a file or directory.
+```
 
 Examples
 ```shell
@@ -62,27 +64,27 @@ It is used to Display the contents of a file.
 
 * Display the current or working directory.
 ```shell
-`pwd`
+pwd
 
 The pwd command will display the absolute path of the current directory.
 ```
 
 * add content in a file
-`echo`
+```shell
+echo
 We use echo to print the message "Hello, World!" to the terminal.
-`echo` "Hello, World!"
+echo "Hello, World!"
+```
 
 Redirect output to a file
 ```shell
-`echo` "This is a message" > output.txt
+echo "This is a message" > output.txt
 ```
 This will write the message "This is a message" to a file named output.txt.
 
-* Search for patterns in files
-`grep`
-
-Example: 
+* Search for patterns in files(grep)
 ```shell
+Example: 
 grep hello file_name
 # this command will display the pattern of hello in this file.
 ```
@@ -90,7 +92,7 @@ grep hello file_name
 
 * Count word in a file
 ```shell
-`wc -l new.txt`
+wc -l new.txt
 # it will count all the lines in new.txt file.
 ```
 
