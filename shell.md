@@ -4,19 +4,18 @@
 
 * List all files in a directory
 ```shell
-ls
+$ ls
 Example:
-list the files in documents directory: ls ~/Documents
-ls -l
-list the files with details in documnets directory: ls -l ~/Documents
+ $ ls ~/Documents   # list the files in documents directory.
+ $ ls -l ~/Documents   # list the files with details in documnets directory.
 ```
 * Change to a directory
 cd
 ```shell
 Example:
-Go to root: cd /
-Go to home directory: cd ~
-Go to dir1: cd dir1
+$ cd  # go to root. 
+$ cd ~   # go to home directory.
+$ cd dir1  # go to dir1.
 ```
 
 * Move a directory
@@ -28,11 +27,9 @@ Example:
 mv ~/Documents/dir_name  ~/Downloads
 
 # move a directory to another path directory (from downlods) with relative path 
-
 mv vegie3.txt ../../Documents
 
 # this command will move test dir along with all its files to ~/Downloads
-
 mv -r ~/Documents/test ~/Downloads
 ```
 
