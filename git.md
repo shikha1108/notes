@@ -49,19 +49,36 @@ $ git checkout - b branch_name  # this command will create a new branch.
 ```
 ### add file in git repo
 ```shell
-git add file_name  # this command will add file in repo.
+$git add file_name  # this command will add file in repo.
 ```
 
 ### commit code
 ```shell
-git commit -m "message"   # this command will commit code in github.
+$git commit -m "message"   # this command will commit code in github.
 ```
 
 ### push code
 ```shell
-git push origin main    # this command is used to push the code in git repo.
+$git push origin main    # this command is used to push the code in git repo.
 ```
 ### git log
 ```shell
-git log #this command will display all the commit
+$git log #this command will display all the commit
+```
+
+# how to undo commit
+```shell
+$git reset HEAD~1 #this command will undo one last one commit in the current branch.
+
+$git reset HEAD~2#this command will undo one last two commit in the current branch.
+
+```
+# how to again push in git hub after undo commit
+```shell
+$git push -f origin main # this command will use after undo commit only.
+```
+
+#how to undo one file 
+```shell
+$git revert file_id # this command will undo the given file.
 ```
