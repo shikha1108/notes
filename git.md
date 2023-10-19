@@ -66,19 +66,19 @@ $git push origin main    # this command is used to push the code in git repo.
 $git log #this command will display all the commit
 ```
 
-# how to undo commit
+## how to undo commit
 ```shell
 $git reset HEAD~1 #this command will undo one last one commit in the current branch.
 
 $git reset HEAD~2#this command will undo one last two commit in the current branch.
 
 ```
-# how to again push in git hub after undo commit
+## how to again push in git hub after undo commit
 ```shell
 $git push -f origin main # this command will use after undo commit only.
 ```
 
-#how to undo one file 
+## how to undo one file 
 ```shell
 $git revert file_id # this command will undo the given file.
 ```
