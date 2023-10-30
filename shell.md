@@ -66,6 +66,10 @@ $ echo "Hello, World!"
 ```shell
 $ echo "This is a message" > output.txt  #this will write the message "This is a message" to a file named output.txt.
 ```
+* How to check hidden file in a repository
+```shell
+$ ls -a
+```
 
 * Search for patterns in files(grep)
 ```shell
