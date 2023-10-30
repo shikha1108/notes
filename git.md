@@ -34,6 +34,10 @@ $ git remote add origin git@github.com:shikha1108/test-repo.git  #this will set 
 $ git branch -M main  # this will change the master branch name in main.
 $ git push -u origin main # this will use to push code in git hub. 
 ```
+### How to check if git remote is set or not?
+```shell
+$ git remote -v
+```
 ### To check branches
 ```shell
 $ git branch  # this will display all the branches in terminal.
@@ -82,3 +86,8 @@ $git push -f origin main # this command will use after undo commit only.
 ```shell
 $git revert file_id # this command will undo the given file.
 ```
+### how to pull the changes from main
+```shell
+$ git pull origin main
+```
+
