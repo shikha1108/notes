@@ -8,6 +8,11 @@ $ cd myproject # this will go to myproject directory.
 $ git init # this will initialize myproject directory as a git repo.
  ```
 
+ ### How to check if git git init worrked or not?
+ ```shell
+$ git branch # we can use this command to check it is working or not in my current dir.
+ ```
+
 ### Create a file
 
  ```shell
@@ -88,6 +93,6 @@ $git revert file_id # this command will undo the given file.
 ```
 ### how to pull the changes from main
 ```shell
-$ git pull origin main
+$ git pull origin main. # this command is used to pull the chages from branch.
 ```
 
