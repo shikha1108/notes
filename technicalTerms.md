@@ -12,3 +12,12 @@
 * Redirection
 * fetch
 * merging
+* Refactoring
+* append
+* Rest Api's and response status code // complete it
+* Machines and ports
+* flyway
+*  Null pointer Exception
+* Stacktrace
+* Compile time exception and run time exception.
+* 
