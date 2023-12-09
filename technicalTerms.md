@@ -9,7 +9,8 @@
 * Generic
 ### Json format
 ```
-Json is a way to write data. JSON data is represented as key-value pairs. Data is enclosed in curly braces '{}'. Key-value pairs are separated by colons.
+Json is a way to write data. JSON data is represented as key-value pairs. 
+Data is enclosed in curly braces '{}'. Key-value pairs are separated by colons.
 ```
 ```
 {
