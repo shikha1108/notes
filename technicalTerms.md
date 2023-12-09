@@ -7,7 +7,17 @@
 * shadowing
 * Hard coding
 * Generic
-* Json format
+### Json format
+```
+Json is a way to write data. JSON data is represented as key-value pairs. Data is enclosed in curly braces '{}'. Key-value pairs are separated by colons.
+```
+```
+{
+  "name": "John Doe",
+  "age": 30
+}
+
+```
 * Xml format
 * Redirection
 * fetch
