@@ -25,7 +25,16 @@ Data is enclosed in curly braces '{}'. Key-value pairs are separated by colons.
 * merging
 * Refactoring
 * append
-* Rest Api's and response status code // complete it
+### Rest Api's and response status code.
+```
+Rest Api is a way of sharing information between two servers.
+It has  several methods get, post, patch, delete.
+```
+```
+When you interact with a RESTful API, the server responds with an HTTP status code to indicate the success or failure of the request.
+ These status codes are three-digit numbers that provide information about the status of the HTTP request.
+ 200 OK, 401 Unauthorized, 400 Bad Request, 404 Not Found, 500 Internal Server Error .
+ ```
 * Machines and ports
 * flyway
 ### Null pointer Exception
@@ -35,7 +44,7 @@ Data is enclosed in curly braces '{}'. Key-value pairs are separated by colons.
  ```java
      public static void main(String[] args) {
      	String name = null;
-     	            System.out.println(name);
+     	System.out.println(name);
 }
 ```
 ```
