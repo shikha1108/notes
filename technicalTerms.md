@@ -27,7 +27,8 @@
      	            System.out.println(name);
 }
 ```
-```In this example, the variable name is assigned the value null, and then we try to access the name , in result NullPointerException will come here. 
+```
+In this example, the variable name is assigned the value null, and then we try to access the name , in result NullPointerException will come here. 
 ```
 
 * Stacktrace
