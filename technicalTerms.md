@@ -28,7 +28,11 @@ Data is enclosed in curly braces '{}'. Key-value pairs are separated by colons.
 ### Rest Api's 
 
 Rest Api is a way of sharing information between two servers.
-It has  several methods get, post, patch, delete.
+It has  several methods 
+* Get: 
+* Post: 
+* Patch: 
+* Delete:
 
 ### Response status code.
 
