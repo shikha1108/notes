@@ -1,9 +1,11 @@
-* Service  It is a class also It is also
+### Service  It is a class also It is also
+
 ### Microservice Architecture
 Microlithic architecture is a modern architectural pattern that aims to decompose large-scale applications into smaller, manageable services, often referred to as microservices. Each microservice is an independent, self-contained unit responsible for a specific business capability. These services communicate via well-defined APIs, typically over HTTP or message queues.
 
 ### Monolithic Architecture
 Monolithic architecture is the traditional approach to software design, where the entire application is developed as a single, tightly integrated unit. All components, modules, and functionalities are bundled together and deployed as a single application.
+
 * Repository
 * Framework
 * Infrastructure
