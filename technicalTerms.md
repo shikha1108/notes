@@ -49,11 +49,11 @@ These status codes are three-digit numbers that provide information about the st
 * 401 Unauthorized, 
 * 400 Bad Request, 
 * 404 Not Found, 
-* 500 Internal Server Error 
-* 503 Service Unavailable
+* 500 Internal Server Error,
+* 503 Service Unavailable.
 
-* Machines and ports
-* flyway
+### Machines and ports
+### flyway
 
 ### Null pointer Exception
 
