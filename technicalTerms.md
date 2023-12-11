@@ -1,12 +1,26 @@
 ### Service  It is a class also It is also
 
 ### Microservice Architecture
-Microlithic architecture is a modern architectural pattern that aims to decompose large-scale applications into smaller, manageable services, often referred to as microservices. Each microservice is an independent, self-contained unit responsible for a specific business capability. These services communicate via well-defined APIs, typically over HTTP or message queues.
+It is a modern architecture. We can divide our services into multiple smaller services known microservices. These micro services communicate to each other using REST apis.
+There are many advantages of microservice architecture:
+* It allows us to debug issues easily.
+* If there is any issue with one service, other services keep running.
+* They are easier to understand. So new joiners can quickly understand their logic.
+But there are some disadvantages also:
+* They are difficult to maintain.
+* If there are multiple REST calls, the service can be slow sometimes.
+
 
 ### Monolithic Architecture
-Monolithic architecture is the traditional approach to software design, where the entire application is developed as a single, tightly integrated unit. All components, modules, and functionalities are bundled together and deployed as a single application.
+Monolithic architecture is the traditional approach to software design. In monolithic architecture entire application is developed as a single application/codebase. In this architecture components, modules, and functionalities are bundled together.
+There are many advantages of monolithic architecture:
+* It is easy to maintain.
+* Its performance is very fast.
+But there are some disadvantages also:
+* If there is any issue with service entire application will stop.
+* It is not eas to understand. When new joiner join company.
 
-* Repository
+### Repository
 * Framework
 * Infrastructure
 * shadowing
@@ -69,6 +83,6 @@ Here, the variable name is assigned the value null, and then we try to access th
 
 
 * Stacktrace
-* Compile time exception and run time exception.
+* Exception handling:Compile time exception and run time exception.
 * 
 
