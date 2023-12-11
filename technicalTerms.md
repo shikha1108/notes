@@ -15,9 +15,11 @@ But there are some disadvantages also:
 
 ### Monolithic Architecture
 Monolithic architecture is the traditional approach to software design. In monolithic architecture entire application is developed as a single application/codebase. In this architecture components, modules, and functionalities are bundled together.
+
 There are many advantages of monolithic architecture:
 * It is easy to maintain.
 * Its performance is very fast.
+
 But there are some disadvantages also:
 * If there is any issue with service entire application will stop.
 * It is not eas to understand. When new joiner join company.
