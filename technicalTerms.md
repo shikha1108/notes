@@ -25,11 +25,13 @@ But there are some disadvantages also:
 * It is not eas to understand. When new joiner join company.
 
 ### Repository
+
 * Framework
 * Infrastructure
 * shadowing
 * Hard coding
 * Generic
+
 ### Json format
 
 Json is a way to write data. JSON data is represented as key-value pairs. 
@@ -40,13 +42,27 @@ Data is enclosed in curly braces '{}'. Key-value pairs are separated by colons.
   "name": "John Doe",
   "age": 30
 }
-
 ```
-* Xml format
+### Xml format
+XML stands for eXtensible Markup Language. It is also like HTML. It is a software- and hardware-independent tool for storing and transporting data.
+
+This note is a note to Shiy from Anu, stored as XML:
+```
+<note>
+  <to>Shiy</to>
+  <from>Anu</from>
+  <heading>Reminder</heading>
+  <body>Don't forget me this weekend!</body>
+</note>
+```
+
 * Redirection
 * fetch
 * merging
-* Refactoring
+
+### Refactoring
+Refactoring is the process of restructuring existing code without changing its external behavior.
+
 * append
 
 ### Rest Api's 
