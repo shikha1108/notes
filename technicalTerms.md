@@ -2,10 +2,12 @@
 
 ### Microservice Architecture
 It is a modern architecture. We can divide our services into multiple smaller services known microservices. These micro services communicate to each other using REST apis.
+
 There are many advantages of microservice architecture:
 * It allows us to debug issues easily.
 * If there is any issue with one service, other services keep running.
 * They are easier to understand. So new joiners can quickly understand their logic.
+
 But there are some disadvantages also:
 * They are difficult to maintain.
 * If there are multiple REST calls, the service can be slow sometimes.
