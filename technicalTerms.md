@@ -48,11 +48,11 @@ Data is enclosed in curly braces '{}'. Key-value pairs are separated by colons.
 ### Rest Api's 
 
 Rest Api is a way of sharing information between two servers.
-It has several methods 
+It has several methods.
 * Get:It is used to retrieve data.
-* Post:Its is used to post data to server.
-* Patch:Applies partial modifications to a resource. It is often used to update specific fields of an existing resource.
-* Put:Updates a specified resource with new data. It replaces the existing representation of the resource
+* Post:It is used to post data to server.
+* Patch:It Applies partial modifications to a resource. It is often used to update specific fields of an existing resource.
+* Put:It Updates a specified resource with new data. It replaces the existing representation of the resource.
 * Delete: It is used to delete the data.
 
 ### Response status code.
