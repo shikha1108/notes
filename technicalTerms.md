@@ -26,12 +26,51 @@ But there are some disadvantages also:
 
 ### Repository
 
-* Framework
+### Framework
+A framework is like a structure that provides a base for the application development process. With the help of a framework, you can avoid writing everything from scratch.
+
+Frameworks provide many advantages such as:
+* Easy to test our code and debug it.
+* Clean code is much easy to understand and work with.
+* Reduces the time and cost of the project with the enhanced application.
+* Features and functionalities provided by the framework can be modified and extended.
+* Such as Spring, Django, Flutter, Angular, Vue, PyTorch, Spring Boot, React Native, Apache Spark are the frameworks.
+
+
 * Infrastructure
 * shadowing
-* Hard coding
-* Generic
+### Hard coding
+When we fixed the values of variables in our code.
 
+```java
+public class HardCodingExample {
+    public static void main(String[] args) {
+        String name = "Shikha";  // Hard-coded value
+        System.out.println("The name of students is: " + name);
+    }
+}
+```
+* Generic
+It is used in java. In generic type we can use String or Integer both or Double or any type.
+```java
+class Test {
+    // Driver method
+    public static void main(String[] args)
+    {
+        // Calling generic method with Integer argument
+        genericDisplay(11);
+        genericDisplay("GeeksForGeeks");
+        genericDisplay(1.0);
+    }
+
+     // A Generic method example
+    static <T> void genericDisplay(T element)
+    {
+        System.out.println(element.getClass().getName()
+                           + " = " + element);
+    }
+}
+````
 ### Json format
 
 Json is a way to write data. JSON data is represented as key-value pairs. 
@@ -39,21 +78,20 @@ Data is enclosed in curly braces '{}'. Key-value pairs are separated by colons.
 
 ```
 {
-  "name": "John Doe",
-  "age": 30
+  "firstname": "Shikha",
+  "lastname": "Yadav",
+  "age": 27
 }
 ```
 ### Xml format
-XML stands for eXtensible Markup Language. It is also like HTML. It is a software- and hardware-independent tool for storing and transporting data.
+XML is a way to write data. It is also like HTML. It is a software tool for storing and transporting data. We use xml format to write our pom file in java spring project.
 
-This note is a note to Shiy from Anu, stored as XML:
+stored as XML format:
 ```
-<note>
-  <to>Shiy</to>
-  <from>Anu</from>
-  <heading>Reminder</heading>
-  <body>Don't forget me this weekend!</body>
-</note>
+<Person>
+  <name>Shikha</name>
+  <age>27</age>
+</Person>
 ```
 
 * Redirection
@@ -104,5 +142,10 @@ Here, the variable name is assigned the value null, and then we try to access th
 
 * Stacktrace
 * Exception handling:Compile time exception and run time exception.
-* 
+* Docker
+* Kubernetes
+* AWS
+* Jenkins
+* Zookeeper
+### client server architecture
 
