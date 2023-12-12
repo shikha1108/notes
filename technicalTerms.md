@@ -37,9 +37,11 @@ Frameworks provide many advantages such as:
 * Such as Spring, Django, Flutter, Angular, Vue, PyTorch, Spring Boot, React Native, Apache Spark are the frameworks.
 
 
-* Infrastructure
-* shadowing
+### Infrastructure
+### shadowing
+
 ### Hard coding
+
 When we fixed the values of variables in our code.
 
 ```java
@@ -94,9 +96,9 @@ stored as XML format:
 </Person>
 ```
 
-* Redirection
-* fetch
-* merging
+### Redirection
+### fetch
+### merging
 
 ### Refactoring
 Refactoring is the process of restructuring existing code without changing its external behavior.
@@ -140,12 +142,18 @@ public static void main(String[] args) {
 Here, the variable name is assigned the value null, and then we try to access the name , in result NullPointerException will come here. 
 
 
-* Stacktrace
-* Exception handling:Compile time exception and run time exception.
-* Docker
-* Kubernetes
-* AWS
-* Jenkins
-* Zookeeper
+### Stacktrace
+### Exception handling:Compile time exception and run time exception.
+
+### Docker
+It is a software platform that allows you to build, test, and deploy applications quickly using containers. 
+
+### Kubernetes
+### AWS
+
+### Jenkins
+It is an used for building, testing, and deploying code.
+
+### Zookeeper
 ### client server architecture
 
