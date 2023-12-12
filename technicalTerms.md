@@ -1,4 +1,5 @@
-### Service  It is a class also It is also
+### Service 
+
 
 ### Microservice Architecture
 It is a modern architecture. We can divide our services into multiple smaller services known microservices. These micro services communicate to each other using REST apis.
@@ -38,6 +39,7 @@ Frameworks provide many advantages such as:
 
 
 ### Infrastructure
+
 ### shadowing
 
 ### Hard coding
@@ -73,6 +75,7 @@ class Test {
     }
 }
 ````
+
 ### Json format
 
 Json is a way to write data. JSON data is represented as key-value pairs. 
@@ -85,6 +88,7 @@ Data is enclosed in curly braces '{}'. Key-value pairs are separated by colons.
   "age": 27
 }
 ```
+
 ### Xml format
 XML is a way to write data. It is also like HTML. It is a software tool for storing and transporting data. We use xml format to write our pom file in java spring project.
 
@@ -97,13 +101,15 @@ stored as XML format:
 ```
 
 ### Redirection
+
 ### fetch
+
 ### merging
 
 ### Refactoring
 Refactoring is the process of restructuring existing code without changing its external behavior.
 
-* append
+### append
 
 ### Rest Api's 
 
@@ -127,6 +133,7 @@ These status codes are three-digit numbers that provide information about the st
 * 503 Service Unavailable.
 
 ### Machines and ports
+
 ### flyway
 
 ### Null pointer Exception
@@ -143,17 +150,20 @@ Here, the variable name is assigned the value null, and then we try to access th
 
 
 ### Stacktrace
+
 ### Exception handling:Compile time exception and run time exception.
 
 ### Docker
 It is a software platform that allows you to build, test, and deploy applications quickly using containers. 
 
 ### Kubernetes
+
 ### AWS
 
 ### Jenkins
 It is an used for building, testing, and deploying code.
 
 ### Zookeeper
+
 ### client server architecture
 
