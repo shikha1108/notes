@@ -151,14 +151,37 @@ Here, the variable name is assigned the value null, and then we try to access th
 
 ### Stacktrace
 
-### Exception handling:Compile time exception and run time exception.
+### Exception handling
+It is two types: 
+Compile time exception and run time exception.
+
+#### Compile time exception 
+When we do the code. then it is occured
+```java
+string name = "shikha";
+```
+#here the compile type exception will come.
+
+### Run time exception.
+```java
+public static void main(String[] args) {
+    String name = null;
+    System.out.println(name.length());
+        System.out.println(name.read());
+
+}
+```
+
+
 
 ### Docker
 It is a software platform that allows you to build, test, and deploy applications quickly using containers. 
 
 ### Kubernetes
+It is used in in deploying, managing, and scaling containerized applications.
 
 ### AWS
+Amazon Web Services (AWS) is a comprehensive and widely used cloud computing platform provided by Amazon. AWS is a cloud services, computing power, storage, databases, machine learning, analytics, content delivery.
 
 ### Jenkins
 It is an used for building, testing, and deploying code.
