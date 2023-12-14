@@ -1,5 +1,5 @@
 ### Service 
-
+We used service in a java spring project.
 
 ### Microservice Architecture
 We divide our services into multiple smaller services known microservices. These micro services communicate to each other using REST apis.
@@ -26,6 +26,8 @@ But there are some disadvantages also:
 * It is not easy to understand. When new joiner join company.
 
 ### Repository
+we used it to store the data.
+We basically crete git repo for code review and we also used spring repo .
 
 ### Framework
 A framework is like a structure that provides a base for the application development process. With the help of a framework, you can avoid writing everything from scratch.
@@ -55,7 +57,8 @@ public class HardCodingExample {
 }
 ```
 * Generic
-It is used in java. In generic type we can use String or Integer both or Double or any other type.
+It is used in java. In generic type we can use String or Integer both or Double or any other 
+type.
 ```java
 class Test {
     // Driver method
@@ -101,6 +104,8 @@ stored as XML format:
 ```
 
 ### Redirection
+It is used to take the data from one direction to another.
+We used to take the data from our files in our computers. 
 
 ### fetch
 It is used totake the data from the database.
@@ -138,8 +143,13 @@ These status codes are three-digit numbers that provide information about the st
 * 503 Service Unavailable.
 
 ### Machines and ports
+Machines are our computers and It is also a local server.
+When a machine communicates with a network, It uses a port number to establish connections and exchange data with other machines. 
+
 
 ### flyway
+It is uesd to migrate datbase in DB.
+ It represents a specific change to the DB schema, such as creating a table, altering a column, or adding data.
 
 ### Null pointer Exception
 
@@ -155,6 +165,7 @@ Here, the variable name is assigned the value null, and then we try to access th
 
 
 ### Stacktrace
+It is a list of the method calls that the application was in the middle of when an Exception was thrown.
 
 ### Exception handling
 It is two types: 
@@ -183,15 +194,19 @@ public static void main(String[] args) {
 It is a software platform that allows you to build, test, and deploy applications quickly using containers. 
 
 ### Kubernetes
-It is used in in deploying, managing, and scaling containerized applications.
+It is used in deploying, managing, and scaling containerized applications.
 
 ### AWS
-Amazon Web Services (AWS) is a comprehensive and widely used cloud computing platform provided by Amazon. AWS is a cloud services, computing power, storage, databases, machine learning, analytics, content delivery.
+Amazon Web Services (AWS) is a cloud computing platform provided by Amazon. It is a cloud services, computing power, storage, databases, machine learning, analytics, content delivery.
 
 ### Jenkins
 It is an used for building, testing, and deploying code.
 
 ### Zookeeper
+It is an open-source service for coordinating distributed systems. It acts as a central hub for configuration, naming, and synchronization in distributed setups. ZooKeeper offers essential tools like distributed locks, making it easier to build applications that need coordination across multiple nodes in a cluster.
+
 
 ### client server architecture
+Client is a user interface or application that requests services or resources, while the server is a powerful computer or set of computers that provide these services or resources.
+
 
