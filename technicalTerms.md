@@ -2,7 +2,7 @@
 
 
 ### Microservice Architecture
-It is a modern architecture. We can divide our services into multiple smaller services known microservices. These micro services communicate to each other using REST apis.
+We divide our services into multiple smaller services known microservices. These micro services communicate to each other using REST apis.
 
 There are many advantages of microservice architecture:
 * It allows us to debug issues easily.
@@ -19,11 +19,11 @@ Monolithic architecture is the traditional approach to software design. In monol
 
 There are many advantages of monolithic architecture:
 * It is easy to maintain.
-* Its performance is very fast.
+* It is  very fast performance.
 
 But there are some disadvantages also:
-* If there is any issue with service entire application will stop.
-* It is not eas to understand. When new joiner join company.
+* If there is any issue with service. Entire application will stop.
+* It is not easy to understand. When new joiner join company.
 
 ### Repository
 
@@ -55,7 +55,7 @@ public class HardCodingExample {
 }
 ```
 * Generic
-It is used in java. In generic type we can use String or Integer both or Double or any type.
+It is used in java. In generic type we can use String or Integer both or Double or any other type.
 ```java
 class Test {
     // Driver method
@@ -103,8 +103,13 @@ stored as XML format:
 ### Redirection
 
 ### fetch
+It is used totake the data from the database.
 
 ### merging
+When we create two branch and merge them.
+```
+git merge
+```
 
 ### Refactoring
 Refactoring is the process of restructuring existing code without changing its external behavior.
