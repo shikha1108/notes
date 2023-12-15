@@ -44,11 +44,10 @@ Frameworks provide many advantages such as:
 Cloud Infrasturcture, Operating Infrasturcture(macos, linux, windows), Networking Infrasturcture, Software Infrasturcture
 
 ### shadowing
+When we create a variable 
 
 ### Hard coding
-
 When we fixed the values of variables in our code.
-
 ```java
 public class HardCodingExample {
     public static void main(String[] args) {
@@ -57,7 +56,7 @@ public class HardCodingExample {
     }
 }
 ```
-* Generic
+### Generic
 It is used in java. In generic type we can use String or Integer both or Double or any other 
 type.
 ```java
@@ -94,6 +93,7 @@ Data is enclosed in curly braces '{}'. Key-value pairs are separated by colons.
 ```
 
 ### Xml format
+
 XML is a way to write data. It is also like HTML. It is a software tool for storing and transporting data. We use xml format to write our pom file in java spring project.
 
 stored as XML format:
@@ -121,6 +121,7 @@ git merge
 Refactoring is the process of restructuring existing code without changing its external behavior.
 
 ### append
+ The process of attaching or combining data with another file or set of data.
 
 ### Rest Api's 
 
@@ -150,7 +151,7 @@ When a machine communicates with a network, It uses a port number to establish c
 
 ### flyway
 It is uesd to migrate datbase in DB.
- It represents a specific change to the DB schema, such as creating a table, altering a column, or adding data.
+It represents a specific change to the DB schema, such as creating a table, altering a column, or adding data.
 
 ### Null pointer Exception
 
@@ -188,8 +189,6 @@ public static void main(String[] args) {
 
 }
 ```
-
-
 
 ### Docker
 It is a software platform that allows you to build, test, and deploy applications quickly using containers. 
