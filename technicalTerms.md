@@ -41,6 +41,7 @@ Frameworks provide many advantages such as:
 
 
 ### Infrastructure
+Cloud Infrasturcture, Operating Infrasturcture(macos, linux, windows), Networking Infrasturcture, Software Infrasturcture
 
 ### shadowing
 
