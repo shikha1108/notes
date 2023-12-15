@@ -30,7 +30,8 @@ we used it to store the data.
 We basically crete git repo for code review and we also used spring repo .
 
 ### Framework
-A framework is like a structure that provides a base for the application development process. With the help of a framework, you can avoid writing everything from scratch.
+A framework is like a structure that provides a base for the application development process. 
+With the help of a framework, you can avoid writing everything from scratch.
 
 Frameworks provide many advantages such as:
 * Easy to test our code and debug it.
@@ -94,7 +95,8 @@ Data is enclosed in curly braces '{}'. Key-value pairs are separated by colons.
 
 ### Xml format
 
-XML is a way to write data. It is also like HTML. It is a software tool for storing and transporting data. We use xml format to write our pom file in java spring project.
+XML is a way to write data. It is also like HTML. It is a software tool for storing and transporting data.
+We use xml format to write our pom file in java spring project.
 
 stored as XML format:
 ```
@@ -109,7 +111,7 @@ It is used to take the data from one direction to another.
 We used to take the data from our files in our computers. 
 
 ### fetch
-It is used totake the data from the database.
+It is used to take the data from the database.
 
 ### merging
 When we create two branch and merge them.
@@ -118,10 +120,11 @@ git merge
 ```
 
 ### Refactoring
-Refactoring is the process of restructuring existing code without changing its external behavior.
+It is the process of restructuring existing code without changing its external behavior.
 
 ### append
- The process of attaching or combining data with another file or set of data.
+ The process of attaching or combining data with another file or set of data. 
+ It is also used to concatenating linked lists or arrays in programming languages. 
 
 ### Rest Api's 
 
