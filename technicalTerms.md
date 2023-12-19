@@ -45,20 +45,20 @@ Frameworks provide many advantages such as:
 Cloud Infrasturcture, Operating Infrasturcture(macos, linux, windows), Networking Infrasturcture, Software Infrasturcture
 
 ### shadowing
-When we create a variable as a global and then we assign aanother value for this variable then it is also known as shadowing. The inner variable shadows the outer variable.
+When we create a variable as a global and then we assign another value for this variable this process is known as shadowing in programming languages. The inner variable shadows the outer variable.
 ```java
-# Outer scope variable
+# Outer scope variable.
 x = 10
 
 def shadowing_example():
     x = 5
-    print("Inner x:", x)  # Prints the value of the inner variable
+    print("Inner x:", x)  # Prints the value of the inner variable.
 
 # Call the function
 shadowing_example()
 
-# Outside the function, the outer variable is still accessible
-print("Outer x:", x)  # Prints the value of the outer variable
+# Outside the function, the outer variable is still accessible.
+print("Outer x:", x)  # Prints the value of the outer variable.
 
 ```
 
@@ -128,7 +128,7 @@ We used to take the data from our files in our computers.
 
 ### fetch
 We use in git. When we use git fetch command than, 
-It can downloads changes from a remote repository to your local repository without automatically merging them into your working branch.
+it can downloads changes from a remote repository to your local repository without automatically merging them into your working branch.
 
 
 ### merging
@@ -176,7 +176,7 @@ It represents a specific change to the DB schema, such as creating a table, alte
 
 ### Null pointer Exception
 
- Null pointer exception is a runtime exception. Null is a special kind of value that can be assigned to the reference of an object. Whenever one tries to use a reference that has the Null value, the NullPointerException is raised.
+Null pointer exception is a runtime exception. Null is a special kind of value that can be assigned to the reference of an object. Whenever one tries to use a reference that has the Null value, the NullPointerException is raised.
 
  ```java
 public static void main(String[] args) {
@@ -184,7 +184,7 @@ public static void main(String[] args) {
     System.out.println(name.length());
 }
 ```
-Here, the variable name is assigned the value null, and then we try to access the name , in result NullPointerException will come here. 
+# Here, the variable name is assigned the value null, and then we try to access the name lenght, the outcome will be NullPointerException. 
 
 
 ### Stacktrace
@@ -232,7 +232,7 @@ It is used for developing and deploying apps that immediately start producing va
 ### Ngnix
 It is a web server.
 Nginx is like a smart traffic manager for websites. 
-It efficiently handles lots of visitors, prevent slowdowns, and can speed up websites by serving content quickly. Web applications can run smoothly.
+It efficiently handles lots of visitors, prevent slowdowns, and can speed up websites by serving content quickly. and web applications can run smoothly.
 
 
 ### Webserver
