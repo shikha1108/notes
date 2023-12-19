@@ -1,5 +1,5 @@
 ### Service 
-Service can be one of the java class. and It can be also hole java service.
+A service can be one of the java classes or it can also be a whole java service.
 
 ### Microservice Architecture
 We divide our services into multiple smaller services known microservices. These micro services communicate to each other using REST apis.
@@ -26,7 +26,7 @@ But there are some disadvantages also:
 * It is not easy to understand. When new joiner join company.
 
 ### Repository
-basically we create repo to store the data. And
+Basically we create repo to store the data. And
 We create git repo for code review and we also used spring repo .
 
 ### Framework
@@ -45,7 +45,7 @@ Frameworks provide many advantages such as:
 Cloud Infrasturcture, Operating Infrasturcture(macos, linux, windows), Networking Infrasturcture, Software Infrasturcture
 
 ### shadowing
-When we create a variable as a global and then we assign aanother value for this variable then it is also known as shadowing. the inner variable shadowa the outer variable.
+When we create a variable as a global and then we assign aanother value for this variable then it is also known as shadowing. The inner variable shadows the outer variable.
 ```java
 # Outer scope variable
 x = 10
@@ -232,7 +232,7 @@ It is used for developing and deploying apps that immediately start producing va
 ### Ngnix
 It is a web server.
 Nginx is like a smart traffic manager for websites. 
-It efficiently handles lots of visitors, prevent slowdowns, and can speed up websites by serving content quickly. And web applications can run smoothly.
+It efficiently handles lots of visitors, prevent slowdowns, and can speed up websites by serving content quickly. Web applications can run smoothly.
 
 
 ### Webserver
