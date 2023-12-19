@@ -26,7 +26,8 @@ But there are some disadvantages also:
 * It is not easy to understand. When new joiner join company.
 
 ### Repository
-Basically we create repo to store the data. and we create git repo for code review and we also use spring repo.
+Basically, we create a repo to store the data.
+We create a Git repo for code review, and we also use a Spring repo.
 
 ### Framework
 A framework is like a structure that provides a base for the application development process. 
@@ -169,7 +170,7 @@ Machines are our computers and It is also a local server.
 When a machine communicates with a network, It uses a port number to establish connections and exchange data with other machines. 
 
 
-### flyway
+### Flyway
 It is uesd to migrate datbase in DB.
 It represents a specific change to the DB schema, such as creating a table, altering a column, or adding data.
 
@@ -183,7 +184,7 @@ public static void main(String[] args) {
     System.out.println(name.length());
 }
 ```
-# Here, the variable name is assigned the value null, and then we try to access the name lenght, the outcome will be NullPointerException. 
+#Here, the variable name is assigned the value null, and then we try to access the name lenght, the outcome will be NullPointerException. 
 
 
 ### Stacktrace
@@ -222,10 +223,10 @@ Amazon Web Services (AWS) is a cloud computing platform provided by Amazon. It i
 ### Jenkins
 It is an used for building, testing, and deploying code.
 
-### client server architecture
+### Client server architecture
 Client is a user interface or application that requests services or resources, while the server is a powerful computer or set of computers that provide these services or resources.
 
-### heroku
+### Heroku
 It is used for developing and deploying apps that immediately start producing value.
 
 ### Ngnix
