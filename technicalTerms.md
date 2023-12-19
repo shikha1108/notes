@@ -26,8 +26,7 @@ But there are some disadvantages also:
 * It is not easy to understand. When new joiner join company.
 
 ### Repository
-Basically we create repo to store the data. And
-We create git repo for code review and we also used spring repo .
+Basically we create repo to store the data. and we create git repo for code review and we also used spring repo.
 
 ### Framework
 A framework is like a structure that provides a base for the application development process. 
