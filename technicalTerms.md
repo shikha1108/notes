@@ -159,11 +159,11 @@ It has several methods.
 
 When you interact with a RESTful API, the server responds with an HTTP status code to indicate the success or failure of the request.
 These status codes are three-digit numbers that provide information about the status of the HTTP request.
-* 200 OK, 
-* 401 Unauthorized, 
-* 400 Bad Request, 
-* 404 Not Found, 
-* 500 Internal Server Error,
+* 200 OK.
+* 401 Unauthorized. 
+* 400 Bad Request. 
+* 404 Not Found. 
+* 500 Internal Server Error.
 * 503 Service Unavailable.
 
 ### Machines and ports
