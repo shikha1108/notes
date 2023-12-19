@@ -62,7 +62,6 @@ print("Outer x:", x)  # Prints the value of the outer variable.
 
 ```
 
-
 ### Hard coding
 When we fixed the values of variables in our code.
 ```java
@@ -73,7 +72,9 @@ public class HardCodingExample {
     }
 }
 ```
+
 ### Generic
+
 It is used in java. In generic type we can use String or Integer both or Double or any other 
 type.
 ```java
@@ -199,7 +200,6 @@ When we do the code. then it is occured
 ```java
 string name = "shikha";
 ```
-# here the compile type exception will come.
 
 ### Run time exception.
 ```java
