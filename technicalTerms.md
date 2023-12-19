@@ -183,7 +183,7 @@ public static void main(String[] args) {
     String name = null;
     System.out.println(name.length());
 }
-# Here, the variable name is assigned the value null, and then we try to access the name lenght, the outcome will be NullPointerException. 
+//Here, the variable 'name' is assigned the value null, and when we attempt to access the length of the name, the outcome will be a NullPointerException.
 ```
 
 
