@@ -1,5 +1,5 @@
 ### Service 
-We used service in a java spring project.
+Service can be one of the java class. and It can be also hole java service.
 
 ### Microservice Architecture
 We divide our services into multiple smaller services known microservices. These micro services communicate to each other using REST apis.
@@ -26,8 +26,8 @@ But there are some disadvantages also:
 * It is not easy to understand. When new joiner join company.
 
 ### Repository
-we used it to store the data.
-We basically crete git repo for code review and we also used spring repo .
+basically we create repo to store the data. And
+We create git repo for code review and we also used spring repo .
 
 ### Framework
 A framework is like a structure that provides a base for the application development process. 
@@ -45,7 +45,23 @@ Frameworks provide many advantages such as:
 Cloud Infrasturcture, Operating Infrasturcture(macos, linux, windows), Networking Infrasturcture, Software Infrasturcture
 
 ### shadowing
-When we create a variable 
+When we create a variable as a global and then we assign aanother value for this variable then it is also known as shadowing. the inner variable shadowa the outer variable.
+```java
+# Outer scope variable
+x = 10
+
+def shadowing_example():
+    x = 5
+    print("Inner x:", x)  # Prints the value of the inner variable
+
+# Call the function
+shadowing_example()
+
+# Outside the function, the outer variable is still accessible
+print("Outer x:", x)  # Prints the value of the outer variable
+
+```
+
 
 ### Hard coding
 When we fixed the values of variables in our code.
@@ -111,7 +127,9 @@ It is used to take the data from one direction to another.
 We used to take the data from our files in our computers. 
 
 ### fetch
-It is used to take the data from the database.
+We use in git. When we use git fetch command than, 
+It can downloads changes from a remote repository to your local repository without automatically merging them into your working branch.
+
 
 ### merging
 When we create two branch and merge them.
@@ -181,7 +199,7 @@ When we do the code. then it is occured
 ```java
 string name = "shikha";
 ```
-#here the compile type exception will come.
+# here the compile type exception will come.
 
 ### Run time exception.
 ```java
@@ -205,11 +223,40 @@ Amazon Web Services (AWS) is a cloud computing platform provided by Amazon. It i
 ### Jenkins
 It is an used for building, testing, and deploying code.
 
-### Zookeeper
-It is an open-source service for coordinating distributed systems. It acts as a central hub for configuration, naming, and synchronization in distributed setups. ZooKeeper offers essential tools like distributed locks, making it easier to build applications that need coordination across multiple nodes in a cluster.
-
-
 ### client server architecture
 Client is a user interface or application that requests services or resources, while the server is a powerful computer or set of computers that provide these services or resources.
+
+### heroku
+It is used for developing and deploying apps that immediately start producing value.
+
+### Ngnix
+It is a web server.
+Nginx is like a smart traffic manager for websites. 
+It efficiently handles lots of visitors, prevent slowdowns, and can speed up websites by serving content quickly. And web applications can run smoothly.
+
+
+### Webserver
+It servees the request of the HTTP to the clients. Some webserves are the Apache web server, Apache Tomcat, Nginx, NodeJS.
+
+### Domain Name
+It is used to identify a specific IP address or a set of IP addresses on the internet. 
+It provides a way for people to easily navigate to websites and other resources on the web.
+
+### Ip address
+It is a unique number identifier that for each computer to connect the interet for communication data. There are IPv4 addresses like 192.168.11 and IPv6 addresses It is a lond unique number.
+
+
+### Epoch
+Epoch in computing can mean the starting point for measuring time (like January 1, 1970, in Unix) or a full cycle through a dataset during machine learning training.
+
+
+
+
+
+
+
+
+
+
 
 
