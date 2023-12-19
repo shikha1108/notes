@@ -44,7 +44,7 @@ Frameworks provide many advantages such as:
 ### Infrastructure
 Cloud Infrasturcture, Operating Infrasturcture(macos, linux, windows), Networking Infrasturcture, Software Infrasturcture
 
-### shadowing
+### Shadowing
 When we create a variable as a global and then we assign another value for this variable this process is known as shadowing in programming languages. The inner variable shadows the outer variable.
 ```java
 # Outer scope variable.
@@ -126,12 +126,12 @@ stored as XML format:
 It is used to take the data from one direction to another.
 We used to take the data from our files in our computers. 
 
-### fetch
+### Fetch
 We use in git. When we use git fetch command than, 
 it can downloads changes from a remote repository to your local repository without automatically merging them into your working branch.
 
 
-### merging
+### Merging
 When we create two branch and merge them.
 ```
 git merge
@@ -140,7 +140,7 @@ git merge
 ### Refactoring
 It is the process of restructuring existing code without changing its external behavior.
 
-### append
+### Append
  The process of attaching or combining data with another file or set of data. 
  It is also used to concatenating linked lists or arrays in programming languages. 
 
@@ -242,7 +242,7 @@ It servees the request of the HTTP to the clients. Some webserves are the Apache
 It is used to identify a specific IP address or a set of IP addresses on the internet. 
 It provides a way for people to easily navigate to websites and other resources on the web.
 
-### Ip address
+### IP address
 It is a unique number identifier that for each computer to connect the interet for communication data. There are IPv4 addresses like 192.168.11 and IPv6 addresses It is a lond unique number.
 
 
