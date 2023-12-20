@@ -177,7 +177,7 @@ It represents a specific change to the DB schema, such as creating a table, alte
 
 ### Null pointer Exception
 
-Null pointer exception is a runtime exception. Null is a special kind of value that can be assigned to the reference of an object. Whenever one tries to use a reference that has the Null value, the NullPointerException is raised.
+Null pointer exception is a runtime exception. Null is a special kind of value that can be assigned to the reference of an object. Whenever one tries to use a reference that has the Null value, the NullPointerException will raise.
 
  ```java
 public static void main(String[] args) {
