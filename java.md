@@ -65,6 +65,8 @@ myNum = 10;
 
 ### Garbage collection
 It automatically removes unreachable objects, managed by the Java Virtual Machine (JVM).
+It makes java memory efficient because garbage collector removes the unreferenced objects from heap memory.
+
 
 ### Abstract classes 
 A class which is declared with the abstract keyword is known as an abstract class in Java.
@@ -115,12 +117,6 @@ Threads are independent, so it doesn't affect other threads if an exception occu
 
 It is the capability to control the access of multiple threads to any shared resource.
 Java Synchronization is better option where we want to allow only one thread to access the shared resource.
-
-### Garbage collector
-Garbage Collection is process of reclaiming the runtime unused memory automatically. 
-In other words, it is a way to destroy the unused objects.
-It makes java memory efficient because garbage collector removes the unreferenced objects from heap memory.
-It is automatically done by the garbage collector(a part of JVM) so we don't need to make extra efforts.
 
 
 
