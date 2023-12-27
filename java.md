@@ -64,7 +64,7 @@ myNum = 10;
 ### Java theory questions:
 
 ### Garbage collection
-It automatically reclaims memory by identifying and removing unreachable objects, managed by the Java Virtual Machine (JVM).
+It automatically removes unreachable objects, managed by the Java Virtual Machine (JVM).
 
 ### Abstract classes 
 A class which is declared with the abstract keyword is known as an abstract class in Java.
@@ -72,12 +72,15 @@ It can have abstract and non-abstract methods (method with the body).
 It doesn't support multiple inheritance.
 It can have final, non-final, static and non-static variables. And class memeber like private or porteted.
 It can extend another java class and implement multiple java interfaces.
+An abstract class can be extended using keyword extends.
 For example, sending SMS where you type the text and send the message. You don't know the internal processing about the message delivery.
 
 ### Interface
 It can have only abstract methods. Since Java 8, it can have default and static methods also.
 It can support multiple Inherritance.
 It has only static and final variables.
+It can be implemneted using keyword implements.
+Members of a Java interface are public by default.
 ```java
 public interface Drawable{
 void draw();
@@ -102,7 +105,7 @@ The scope of the elements is limited to their threads. The JVM creates a separat
 
 ### Multithreading in Java
 
-Multithreading in Java is a process of executing multiple threads simultaneously.
+Multithreading in Java is a process of executing multiple threads simultaneously Or togther.
 It doesn't block the user because threads are independent and you can perform multiple operations at the same time.
 You can perform many operations together, so it saves time.
 Threads are independent, so it doesn't affect other threads if an exception occurs in a single thread.
@@ -112,5 +115,14 @@ Threads are independent, so it doesn't affect other threads if an exception occu
 
 It is the capability to control the access of multiple threads to any shared resource.
 Java Synchronization is better option where we want to allow only one thread to access the shared resource.
+
+### Garbage collector
+Garbage Collection is process of reclaiming the runtime unused memory automatically. 
+In other words, it is a way to destroy the unused objects.
+It makes java memory efficient because garbage collector removes the unreferenced objects from heap memory.
+It is automatically done by the garbage collector(a part of JVM) so we don't need to make extra efforts.
+
+
+
 
 
