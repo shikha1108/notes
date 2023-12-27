@@ -110,7 +110,7 @@ Threads are independent, so it doesn't affect other threads if an exception occu
 
 ### Syncronization in Java
 
-Synchronization in Java is the capability to control the access of multiple threads to any shared resource.
+It is the capability to control the access of multiple threads to any shared resource.
 Java Synchronization is better option where we want to allow only one thread to access the shared resource.
 
 
