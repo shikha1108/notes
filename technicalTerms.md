@@ -249,6 +249,16 @@ It is a unique number identifier that for each computer to connect the interet f
 ### Epoch
 Epoch in computing can mean the starting point for measuring time (like January 1, 1970, in Unix) or a full cycle through a dataset during machine learning training.
 
+### Design patterns
+
+
+
+### Connection pooling
+It is a Database connection pooling.
+It is a way to reduce the cost of opening and closing connections.
+It maintains a “pool” of open connections.
+It passes connections from one database operation to another as needed. 
+In one of my service we are using Hikari connection pooling.
 
 
 
