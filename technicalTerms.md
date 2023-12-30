@@ -44,6 +44,7 @@ Frameworks provide many advantages such as:
 ### Infrastructure
 Cloud Infrasturcture, Operating Infrasturcture(macos, linux, windows), Networking Infrasturcture, Software Infrasturcture
 
+
 ### Shadowing
 When we create a variable as a global and then we assign another value for this variable this process is known as shadowing in programming languages. The inner variable shadows the outer variable.
 ```java
@@ -259,6 +260,14 @@ It is a way to reduce the cost of opening and closing connections.
 It maintains a “pool” of open connections.
 It passes connections from one database operation to another as needed. 
 In one of my service we are using Hikari connection pooling.
+
+### Hibernate and Jvm
+
+### AWS
+* EC2
+* S3
+* CloudWatch
+
 
 
 
