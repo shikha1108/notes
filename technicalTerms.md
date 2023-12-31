@@ -292,6 +292,17 @@ It maintains a “pool” of open connections.
 It passes connections from one database operation to another as needed. 
 In one of my service we are using Hikari connection pooling.
 
+### SOLID Principles
+* It reduces the dependencies so that a block of code can be changed without affecting the other code blocks.
+* The principles intended to make design easier, understandable.
+* By using the principles, the system is maintainable, testable, scalable, and reusable.
+* It avoids the bad design of the software 
+* S= Single Responsibility principle (SRP): Every Java class must perform a single functionality.
+* Let's understand the single responsibility principle through an example.
+* Suppose, Student is a class having three methods namely printDetails(), calculatePercentage(), and addStudent(). Hence, the Student class has three responsibilities to print the details of students, calculate percentages, and database. By using the single responsibility principle, we can separate these functionalities into three separate classes to fulfill the goal of the principle.
+* O=
+* I=
+* D=
 
 
 
