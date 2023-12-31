@@ -253,14 +253,6 @@ Epoch in computing can mean the starting point for measuring time (like January 
 ### Design patterns
 
 
-
-### Connection pooling
-It is a Database connection pooling.
-It is a way to reduce the cost of opening and closing connections.
-It maintains a “pool” of open connections.
-It passes connections from one database operation to another as needed. 
-In one of my service we are using Hikari connection pooling.
-
 ### Hibernate and Jvm
 
 ### AWS
@@ -276,6 +268,8 @@ Data is stored in containers called "buckets," and each object in a bucket is as
 Amazon CloudWatch is a monitoring and observability service for AWS resources and applications.
 It provides data and actionable insights for monitoring the performance of applications, resources, and services in real-time.
 
+#### DATABASE 
+
 ### DB ACID property
 * A transaction is a single logical unit of work that accesses and possibly modifies the contents of a database. 
 Transactions access data using read and write operations. 
@@ -290,6 +284,13 @@ In order to maintain consistency in a database, before and after the transaction
 * It is a data structure that improves the speed of data retrieval operations on a database table.
 * Indexes are created on one or more columns of a table.
 * They provide a quick way to look up data based on the values in those columns. 
+
+### Connection pooling
+It is a Database connection pooling.
+It is a way to reduce the cost of opening and closing connections.
+It maintains a “pool” of open connections.
+It passes connections from one database operation to another as needed. 
+In one of my service we are using Hikari connection pooling.
 
 
 
