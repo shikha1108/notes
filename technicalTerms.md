@@ -281,8 +281,15 @@ It provides data and actionable insights for monitoring the performance of appli
 Transactions access data using read and write operations. 
 In order to maintain consistency in a database, before and after the transaction, certain properties are followed. are called ACID properties.
 * Atomicity, Consistency, Isolation, Durability
-* A = Atomocity: The entire transaction takes place at once or does not happen at all.
+* A= Atomocity: The entire transaction takes place at once or does not happen at all.
+* C= Consistency: The database must be consistent before an after transaction.
+* I= Isolation: Multiple transactions occures idependently.
+* D= Durabiltiy: The changes of a succesful transaction occurs even if the system failure occurs.
 
+### Database Indexes
+* It is a data structure that improves the speed of data retrieval operations on a database table.
+* Indexes are created on one or more columns of a table.
+* They provide a quick way to look up data based on the values in those columns. 
 
 
 
