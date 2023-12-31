@@ -274,7 +274,15 @@ It is designed for durability, scalability, and high-performance storage.
 Data is stored in containers called "buckets," and each object in a bucket is assigned a unique key.
 * CloudWatch:
 Amazon CloudWatch is a monitoring and observability service for AWS resources and applications.
- It provides data and actionable insights for monitoring the performance of applications, resources, and services in real-time.
+It provides data and actionable insights for monitoring the performance of applications, resources, and services in real-time.
+
+### DB ACID property
+* A transaction is a single logical unit of work that accesses and possibly modifies the contents of a database. 
+Transactions access data using read and write operations. 
+In order to maintain consistency in a database, before and after the transaction, certain properties are followed. are called ACID properties.
+* Atomicity, Consistency, Isolation, Durability
+* A = Atomocity: The entire transaction takes place at once or does not happen at all.
+
 
 
 
