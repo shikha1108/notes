@@ -264,15 +264,15 @@ In one of my service we are using Hikari connection pooling.
 ### Hibernate and Jvm
 
 ### AWS
-* EC2 (Elastic Compute Cloud)
+* EC2 (Elastic Compute Cloud):
 Amazon EC2 is a web service that provides resizable compute capacity in the cloud. 
 It allows users to run virtual servers, known as "instances," in the AWS cloud. 
 EC2 instances come in various types and sizes, each optimized for different use cases.
-* S3 (Simple Storage Service)
+* S3 (Simple Storage Service):
 It is an object storage service that allows users to store and retrieve any amount of data at any time. 
 It is designed for durability, scalability, and high-performance storage. 
 Data is stored in containers called "buckets," and each object in a bucket is assigned a unique key.
-* CloudWatch
+* CloudWatch:
 Amazon CloudWatch is a monitoring and observability service for AWS resources and applications.
  It provides data and actionable insights for monitoring the performance of applications, resources, and services in real-time.
 
