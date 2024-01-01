@@ -300,9 +300,37 @@ In one of my service we are using Hikari connection pooling.
 * 1. S Single Responsibility principle (SRP): Every Java class must perform a single functionality.
 * Let's understand the single responsibility principle through an example.
 * Suppose, Student is a class having three methods called printDetails(), calculatePercentage(), and addStudent(). Hence, the Student class has three responsibilities to print the details of students, calculate percentages, and add student. By using the single responsibility principle, we can separate these functionalities into three separate classes to fulfill the goal of the principle.
-* 2. O Open Closed Principle (OCP): The module should be open for extension but closed for modification
-* 3. I
-* 4. D
+* 2. O Open Closed Principle (OCP): The module should be open for extension but closed for modification.
+* Suppose, Here, the Student class is closed for modification (you can add new grade calculators without changing Student), but it's open for extension by allowing different ways to calculate the average grade.
+* 3. L Lischov Substitude Principles (LSP):The objects of a superclass should be replaceable with objects of a subclass without affecting the correctness of the program.
+* 4. I Interface Segregation principles(ISP): A class should not be forced to implement interfaces it does not use.
+* 5. Dependency Inversion Principle(DIP): High-level modules should not depend on low-level modules, but both should depend on abstractions.
+
+### Generics: 
+* Generics in Java provide a way to create classes, interfaces, and methods with type parameters. This allows you to write code that can work with different types without sacrificing type safety.
+
+### Garbage collection: 
+* In Java is the process by which the Java Virtual Machine (JVM) automatically reclaims memory that is no longer in use by the program. Java uses an automatic garbage collector to manage memory, and this helps in preventing memory leaks and simplifies memory management for developers.
+
+### Functional Interface: 
+* A functional interface is an interface that declares only one abstract method. 
+It can still have multiple default or static methods, but it must have exactly one abstract method.
+
+### Java Releases:
+* 
+
+### Spring Boot
+
+#### Spring Modules:
+
+#### Spring vs Spring Boot:
+
+#### Spring Boot vs Spring MVC
+
+ 
+
+
+
 
 
 
