@@ -317,7 +317,7 @@ In one of my service we are using Hikari connection pooling.
 It can still have multiple default or static methods, but it must have exactly one abstract method.
 
 ### Java Releases:
-* The lastest java relese is JAVA 21.
+* The lastest java release is JAVA 21.
 
 ### Spring 
 
