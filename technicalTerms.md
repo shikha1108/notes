@@ -325,9 +325,14 @@ It can still have multiple default or static methods, but it must have exactly o
 
 #### Spring vs Spring Boot:
 
-#### Spring Boot vs Spring MVC
+
+#### Spring Boot vs Spring MVC:
+
 
 ### Dependency Injection:
+
+
+### Multithreading in JAVA: 
 
 
 
