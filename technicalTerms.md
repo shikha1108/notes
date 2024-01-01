@@ -218,9 +218,6 @@ It is a software platform that allows you to build, test, and deploy application
 ### Kubernetes
 It is used in deploying, managing, and scaling containerized applications.
 
-### AWS
-Amazon Web Services (AWS) is a cloud computing platform provided by Amazon. It is a cloud services, computing power, storage, databases, machine learning, analytics, content delivery.
-
 ### Jenkins
 It is an used for building, testing, and deploying code.
 
@@ -292,6 +289,9 @@ It maintains a “pool” of open connections.
 It passes connections from one database operation to another as needed. 
 In one of my service we are using Hikari connection pooling.
 
+### AWS
+Amazon Web Services (AWS) is a cloud computing platform provided by Amazon. It is a cloud services, computing power, storage, databases, machine learning, analytics, content delivery.
+
 ### SOLID Principles
 * It reduces the dependencies so that a block of code can be changed without affecting the other code blocks.
 * The principles intended to make design easier, understandable.
@@ -305,19 +305,25 @@ In one of my service we are using Hikari connection pooling.
 * 3. L Lischov Substitude Principles (LSP):The objects of a superclass should be replaceable with objects of a subclass without affecting the correctness of the program.
 * 4. I Interface Segregation principles(ISP): A class should not be forced to implement interfaces it does not use.
 * 5. Dependency Inversion Principle(DIP): High-level modules should not depend on low-level modules, but both should depend on abstractions.
+ 
 
-### Generics: 
+### JAVA
+
+#### Generics: 
 * Generics in Java provide a way to create classes, interfaces, and methods with type parameters. This allows you to write code that can work with different types without sacrificing type safety.
 
-### Garbage collection: 
+#### Garbage collection: 
 * In Java is the process by which the Java Virtual Machine (JVM) automatically reclaims memory that is no longer in use by the program. Java uses an automatic garbage collector to manage memory, and this helps in preventing memory leaks and simplifies memory management for developers.
 
-### Functional Interface: 
+#### Functional Interface: 
 * A functional interface is an interface that declares only one abstract method. 
 It can still have multiple default or static methods, but it must have exactly one abstract method.
 
-### Java Releases:
+#### Java Releases:
 * The lastest java release is JAVA 21.
+
+#### Multithreading in JAVA: 
+
 
 ### Spring 
 
@@ -343,7 +349,6 @@ Embedded server such as Jetty and Tomcat.
 #### Dependency Injection:
 
 
-### Multithreading in JAVA: 
 
 
 
