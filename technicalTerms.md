@@ -330,7 +330,7 @@ The primary feature of the Spring Framework is dependency injection.
 Developers manually define dependencies for the Spring project in pom.xml.
 No embedded server.
 * Spring Boot
-Spring Boot Framework is widely used to develop REST APIs.
+Framework is widely used to develop REST APIs.
 The primary feature of Spring Boot is Autoconfiguration. It automatically configures the classes based on the requirement.
 It reduces boilerplate code.
 This application have jar file.
