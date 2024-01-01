@@ -319,11 +319,22 @@ It can still have multiple default or static methods, but it must have exactly o
 ### Java Releases:
 * The lastest java relese is JAVA 21.
 
-### Spring Boot
+### Spring 
 
 #### Spring Modules:
 
 #### Spring vs Spring Boot:
+* Spring
+is a widely used Java EE framework for building applications.
+The primary feature of the Spring Framework is dependency injection.
+Developers manually define dependencies for the Spring project in pom.xml.
+No embedded server.
+* Spring Boot
+Spring Boot Framework is widely used to develop REST APIs.
+The primary feature of Spring Boot is Autoconfiguration. It automatically configures the classes based on the requirement.
+It reduces boilerplate code.
+This application have jar file.
+Embedded server such as Jetty and Tomcat.
 
 
 #### Spring Boot vs Spring MVC:
