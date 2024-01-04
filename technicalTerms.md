@@ -324,10 +324,29 @@ It can still have multiple default or static methods, but it must have exactly o
 
 #### Multithreading in JAVA: 
 
+#### 
+Hibernate vs JPA
+### Hibernate
+* Hibernate is described in org.hibernate package.
+* Hibernate is an Object-Relational Mapping (ORM) tool that is used to save the Java objects in the relational database system. 
+* Hibernate is an implementation of JPA. Hence, the common standard which is given by JPA is followed by Hibernate.
+* It is used in mapping Java data types with SQL data types and database tables.
+*
+*
+
+### JPA
+* described in javax.persistence package.
+* It describes the handling of relational data in Java applications.                                                                        
+* It is not an implementation. It is only a Java specification. 
+* It is a standard API that permits to perform database operations.
+*
+
 
 ### Spring 
 
 #### Spring Modules:
+The Spring framework comprises of many modules such as core, beans, context, expression language, AOP, Aspects, Instrumentation, JDBC, ORM, OXM, JMS, Transaction, Web, Servlet, Struts etc. These modules are grouped into Test, Core Container, AOP, Aspects, Instrumentation, Data Access / Integration, Web (MVC / Remoting).
+
 
 #### Spring vs Spring Boot:
 * Spring
@@ -344,9 +363,44 @@ Embedded server such as Jetty and Tomcat.
 
 
 #### Spring Boot vs Spring MVC:
+* Spring Boot
+It is a module of spring for packaging the spring based applications.
+It provides default configurations to build Spring-powered framework.
+No need to configration manually.
+It avoid boilerpate codes.
+it reduces development time and increases productivity.
+
+* Spring MVC
+It is a model view controller-based web framework under the Spring framework.
+It provides ready to use features for building a web application.
+It specifies each dependency is separately.
+It requires build configuration manually.
+It takes more time to achieve the same.
 
 
 #### Dependency Injection:
+It is a design pattern that removes the dependency of the programs. 
+In such case we provide the information from the external source such as XML file. 
+It makes our code loosely coupled and easier for testing. 
+
+### Rabbit MQ vs Kafka 
+* RabbitMQ through clustering and high available queues provides high-performance data replication. 
+it also provides high availability.
+* It can also process millions of messages within a second, but it needs more number of the hardware.
+* Queues are not automatically replicated. The configuration is mandatory.
+* Although messages are routed to various queues, only one consumer from a queue can process the message.
+* RabbitMQ carries mature client libraries that support Java, PHP, Python, Ruby, and many more.
+* It Does not support complex routing scenarios.
+
+### Kafka
+* With the help of zookeeper, it manages the state of the Kafka cluster and supports high availability.
+* It can process millions of messages in a second with less number of the hardware.
+* There are replicated brokers available in Kafka, which works when the master broker is down.
+* Multiple consumer types can subscribe to many messages to Kafka.
+* With high growth, it led to a good experience. But, it only supports Java clients.
+* It supports complex routing scenarios.
+
+
 
 
 
