@@ -275,7 +275,7 @@ It provides data and actionable insights for monitoring the performance of appli
 #### DB ACID property
 ACID stands for Atomicity, Consistency, Isolation, Durability.
 > A transaction is a single logical unit of work that accesses and possibly modifies the contents of a database. Transactions access data using read and write operations. In order to maintain consistency in a database, before and after the transaction, certain properties are followed. are called ACID properties.
-* **A stands for Atomocity**: The entire transaction takes place at once or does not happen at all.
+* **A stands for Atomicity**: The entire transaction takes place at once or does not happen at all.
 * **C stands for Consistency**: The database must be consistent before an after transaction.
 * **I stands for Isolation**: Multiple transactions can happen idependently.
 * **D stands for Durabiltiy**: The changes of a succesful transaction occurs even if the system fails because of any issue.
@@ -299,18 +299,18 @@ In one of my service we are using Hikari connection pooling.
 Amazon Web Services (AWS) is a cloud computing platform provided by Amazon. It is a cloud services, computing power, storage, databases, machine learning, analytics, content delivery.
 
 ### SOLID Principles
-* It reduces the dependencies so that a block of code can be changed without affecting the other code blocks.
-* The principles intended to make design easier, understandable.
-* By using the principles, the system is maintainable, testable, scalable, and reusable.
-* It avoids the bad design of the software. 
-* 1. S Single Responsibility principle (SRP): Every Java class must perform a single functionality.
+It reduces the dependencies so that a block of code can be changed without affecting the other code blocks.
+The principles intended to make design easier, understandable.
+By using the principles, the system is maintainable, testable, scalable, and reusable.
+It avoids the bad design of the software. 
+* **S stands for Single Responsibility principle (SRP)**: Every Java class must perform a single functionality.
 * Let's understand the single responsibility principle through an example.
 * Suppose, Student is a class having three methods called printDetails(), calculatePercentage(), and addStudent(). Hence, the Student class has three responsibilities to print the details of students, calculate percentages, and add student. By using the single responsibility principle, we can separate these functionalities into three separate classes to fulfill the goal of the principle.
-* 2. O Open Closed Principle (OCP): The module should be open for extension but closed for modification.
+* **O stands for Open Closed Principle (OCP)**: The module should be open for extension but closed for modification.
 * Suppose, Here, the Student class is closed for modification (you can add new grade calculators without changing Student), but it's open for extension by allowing different ways to calculate the average grade.
-* 3. L Lischov Substitude Principles (LSP):The objects of a superclass should be replaceable with objects of a subclass without affecting the correctness of the program.
-* 4. I Interface Segregation principles(ISP): A class should not be forced to implement interfaces it does not use.
-* 5. Dependency Inversion Principle(DIP): High-level modules should not depend on low-level modules, but both should depend on abstractions.
+* **L stands for Lischov Substitude Principles (LSP)**:The objects of a superclass should be replaceable with objects of a subclass without affecting the correctness of the program.
+* **I stands for Interface Segregation principles(ISP)**: A class should not be forced to implement interfaces it does not use.
+* ** D stands for Dependency Inversion Principle(DIP)**: High-level modules should not depend on low-level modules, but both should depend on abstractions.
  
 
 ### JAVA
