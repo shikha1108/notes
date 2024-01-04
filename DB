@@ -1,0 +1,28 @@
+CREATE TABLE doctors (
+    doctorID INT PRIMARY KEY ,
+    firstName VARCHAR(50),
+    lastName VARCHAR(50),
+    specialization VARCHAR(50)
+);
+
+-- Specify DoctorID and insert additional data
+INSERT INTO doctors (doctorID, firstName, lastName, specialization)
+VALUES (5, 'John', 'Smith', 'Cardiologist');
+
+-- Insert details for five doctors
+INSERT INTO doctors (doctorsId, firstName, lastName, specialization) VALUES
+    (2,'John', 'Dey', 'Physician'),
+    (3, 'Alice', 'Johnson', 'Pediatrician'),
+    (4, 'Michael', 'Brown', 'Orthopedic Surgeon'),
+    (5, 'Emily', 'Davis', 'Neurologist'),
+    (6, 'Robert', 'Miller', 'Dermatologist');
+
+
+CREATE TABLE appointments (
+    appointmentID INT PRIMARY KEY,
+    patientID INT,
+    doctorID INT,
+    AppointmentDate DATE,
+    CONSTRAINT fk_patient FOREIGN KEY (PatientID) REFERENCES patient(PatientID),
+    CONSTRAINT fk_doctor FOREIGN KEY (doctorID) REFERENCES doctors(DoctorID)
+);

@@ -273,14 +273,12 @@ It provides data and actionable insights for monitoring the performance of appli
 ### DATABASE 
 
 #### DB ACID property
-* Atomicity, Consistency, Isolation, Durability.
-* A transaction is a single logical unit of work that accesses and possibly modifies the contents of a database. 
-Transactions access data using read and write operations. 
-In order to maintain consistency in a database, before and after the transaction, certain properties are followed. are called ACID properties.
-* A Atomocity: The entire transaction takes place at once or does not happen at all.
-* C Consistency: The database must be consistent before an after transaction.
-* I Isolation: Multiple transactions occures idependently.
-* D Durabiltiy: The changes of a succesful transaction occurs even if the system failure occurs.
+ACID stands for Atomicity, Consistency, Isolation, Durability.
+> A transaction is a single logical unit of work that accesses and possibly modifies the contents of a database. Transactions access data using read and write operations. In order to maintain consistency in a database, before and after the transaction, certain properties are followed. are called ACID properties.
+* **A stands Atomocity**: The entire transaction takes place at once or does not happen at all.
+* **C Consistency**: The database must be consistent before an after transaction.
+* **I Isolation**: Multiple transactions occures idependently.
+* **D Durabiltiy**: The changes of a succesful transaction occurs even if the system failure occurs.
 
 #### Database Indexes
 * It is a data structure that improves the speed of data retrieval operations on a database table.
