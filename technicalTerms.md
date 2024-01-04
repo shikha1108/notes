@@ -275,15 +275,18 @@ It provides data and actionable insights for monitoring the performance of appli
 #### DB ACID property
 ACID stands for Atomicity, Consistency, Isolation, Durability.
 > A transaction is a single logical unit of work that accesses and possibly modifies the contents of a database. Transactions access data using read and write operations. In order to maintain consistency in a database, before and after the transaction, certain properties are followed. are called ACID properties.
-* **A stands Atomocity**: The entire transaction takes place at once or does not happen at all.
-* **C Consistency**: The database must be consistent before an after transaction.
-* **I Isolation**: Multiple transactions occures idependently.
-* **D Durabiltiy**: The changes of a succesful transaction occurs even if the system failure occurs.
+* **A stands for Atomocity**: The entire transaction takes place at once or does not happen at all.
+* **C stands for Consistency**: The database must be consistent before an after transaction.
+* **I stands for Isolation**: Multiple transactions can happen idependently.
+* **D stands for Durabiltiy**: The changes of a succesful transaction occurs even if the system fails because of any issue.
 
 #### Database Indexes
-* It is a data structure that improves the speed of data retrieval operations on a database table.
-* Indexes are created on one or more columns of a table.
-* They provide a quick way to look up data based on the values in those columns. 
+* Indexes are created to improve the speed of reading the data from a database table.
+* We can create indexes on one or more columns of a table.
+* Indexes use data structures like B+ trees.
+
+> For example, if we have a table students, and we want to run the select query:
+`SELECT * FROM STUDENTS WHERE NAME = 'BRUNO'`. It will be slower if there is no index on the table. But if we create and index on column **name**, it will become faster.
 
 #### Connection pooling
 It is a Database connection pooling.
