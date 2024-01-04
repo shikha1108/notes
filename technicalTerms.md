@@ -317,6 +317,12 @@ Amazon Web Services (AWS) is a cloud computing platform provided by Amazon. It i
 
 #### Generics: 
 * Generics in Java provide a way to create classes, interfaces, and methods with type parameters. This allows you to write code that can work with different types without sacrificing type safety.
+> For example, if we write a method to search an element, then we can write like this:
+```java
+private static String search(List<String> list, String key) {}
+//we can write this using generics
+private static <T> T search(List<T> list, T key) {}
+``` 
 
 #### Garbage collection: 
 * In Java is the process by which the Java Virtual Machine (JVM) automatically reclaims memory that is no longer in use by the program. Java uses an automatic garbage collector to manage memory, and this helps in preventing memory leaks and simplifies memory management for developers.
@@ -391,6 +397,17 @@ It takes more time to achieve the same.
 It is a design pattern that removes the dependency of the programs. 
 In such case we provide the information from the external source such as XML file. 
 It makes our code loosely coupled and easier for testing. 
+```java
+public static void main(String[] args) {
+    List<String> list = new ArrayList<>(); // list is dependency and we inject ArrayList here
+    list = new LinkedList<>();
+    printList(list);
+  }
+
+  private static void printList(List<String> list) {
+
+  }
+```
 
 ### Rabbit MQ vs Kafka 
 * RabbitMQ through clustering and high available queues provides high-performance data replication. 
@@ -408,6 +425,7 @@ it also provides high availability.
 * Multiple consumer types can subscribe to many messages to Kafka.
 * With high growth, it led to a good experience. But, it only supports Java clients.
 * It supports complex routing scenarios.
+
 
 
 
