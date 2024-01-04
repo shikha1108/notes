@@ -307,7 +307,7 @@ Stands for Not Only SQL. Non-relational database management system. Suitable for
 
 
 ### SOLID Principles
-It reduces the dependencies so that a block of code can be changed without affecting the other code blocks.
+>It reduces the dependencies so that a block of code can be changed without affecting the other code blocks.
 The principles intended to make design easier, understandable.
 By using the principles, the system is maintainable, testable, scalable, and reusable.
 It avoids the bad design of the software. 
