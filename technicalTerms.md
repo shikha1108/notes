@@ -297,6 +297,14 @@ It maintains a “pool” of open connections.
 It passes connections from one database operation to another as needed. 
 In one of my service we are using Hikari connection pooling.
 
+##### SQL vs NoSQL
+#### SQL
+Stands for Structured Query Language.Relational database management system (RDBMS).Suitable for structured data with predefined schema.Data is stored in tables with columns and rows. Follows ACID properties (Atomicity, Consistency, Isolation, Durability) for transaction management.Supports JOIN and complex queries. Uses normalized data structure. Requires vertical scaling to handle large volumes of data. Examples: MySQL, PostgreSQL, Oracle, SQL Server, Microsoft SQL Server.   
+    
+#### NoSQL
+Stands for Not Only SQL. Non-relational database management system. Suitable for unstructured and semi-structured data. Data is stored in collections or documents. Does not necessarily follow ACID properties.Does not support JOIN and complex queries. Uses denormalized data structure. Horizontal scaling is possible to handle large volumes of data. Examples: MongoDB, Cassandra, Couchbase, Amazon DynamoDB,Redis.
+
+
 
 ### SOLID Principles
 It reduces the dependencies so that a block of code can be changed without affecting the other code blocks.
