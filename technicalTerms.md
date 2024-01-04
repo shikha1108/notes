@@ -248,6 +248,11 @@ It is a unique number identifier that for each computer to connect the interet f
 Epoch in computing can mean the starting point for measuring time (like January 1, 1970, in Unix) or a full cycle through a dataset during machine learning training.
 
 ### Design patterns
+They are reusable in multiple projects.
+They provide the solutions that help to define the system architecture.
+They capture the software engineering experiences.
+They provide transparency to the design of an application.
+They are well-proved and testified solutions since they have been built upon the knowledge and experience of expert software developers.
 
 
 ### Hibernate and Jvm
@@ -323,6 +328,9 @@ It can still have multiple default or static methods, but it must have exactly o
 * The lastest java release is JAVA 21.
 
 #### Multithreading in JAVA: 
+Multithreading in Java is a process of executing multiple threads simultaneously.
+A thread is a lightweight sub-process, the smallest unit of processing. Multiprocessing and multithreading, both are used to achieve multitasking.
+
 
 #### 
 Hibernate vs JPA
