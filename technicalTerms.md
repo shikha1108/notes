@@ -318,7 +318,7 @@ It avoids the bad design of the software.
 * Suppose, Here, the Student class is closed for modification (you can add new grade calculators without changing Student), but it's open for extension by allowing different ways to calculate the average grade.
 * **L stands for Lischov Substitude Principles (LSP)**:The objects of a superclass should be replaceable with objects of a subclass without affecting the correctness of the program.
 * **I stands for Interface Segregation principles(ISP)**: A class should not be forced to implement interfaces it does not use.
-* ** D stands for Dependency Inversion Principle(DIP)**: High-level modules should not depend on low-level modules, but both should depend on abstractions.
+* **D stands for Dependency Inversion Principle(DIP)**: High-level modules should not depend on low-level modules, but both should depend on abstractions.
  
 
 ### JAVA
