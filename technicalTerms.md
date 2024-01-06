@@ -329,7 +329,7 @@ It avoids the bad design of the software.
 ```java
 private static String search(List<String> list, String key) {}
 //we can write this using generics
-private static <T> T search(List<T> list, T key) {}
+private static <T <T>> search(List<T> list, T key) {}
 ``` 
 
 #### Garbage collection: 
@@ -418,6 +418,8 @@ public static void main(String[] args) {
 ```
 
 ### Rabbit MQ vs Kafka 
+
+### Rabbit
 * RabbitMQ through clustering and high available queues provides high-performance data replication. 
 it also provides high availability.
 * It can also process millions of messages within a second, but it needs more number of the hardware.
