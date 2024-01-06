@@ -327,9 +327,9 @@ It avoids the bad design of the software.
 * Generics in Java provide a way to create classes, interfaces, and methods with type parameters. This allows you to write code that can work with different types without sacrificing type safety.
 > For example, if we write a method to search an element, then we can write like this:
 ```java
-private static String search(List<String> list, String key) {}
+private static Boolean search(List<String> list, String key) {}
 //we can write this using generics
-private static <T <T>> search(List<T> list, T key) {}
+private static <T> Boolean search(List<T> list, T key) {}
 ``` 
 
 #### Garbage collection: 
