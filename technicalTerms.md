@@ -291,18 +291,38 @@ ACID stands for Atomicity, Consistency, Isolation, Durability.
 `SELECT * FROM STUDENTS WHERE NAME = 'BRUNO'`. It will be slower if there is no index on the table. But if we create and index on column **name**, it will become faster.
 
 #### Connection pooling
-It is a Database connection pooling.
+DB maintains a “pool” of open connections.
 It is a way to reduce the cost of opening and closing connections.
-It maintains a “pool” of open connections.
 It passes connections from one database operation to another as needed. 
 In one of my service we are using Hikari connection pooling.
 
 ##### SQL vs NoSQL
 #### SQL
-Stands for Structured Query Language.Relational database management system (RDBMS).Suitable for structured data with predefined schema.Data is stored in tables with columns and rows. Follows ACID properties (Atomicity, Consistency, Isolation, Durability) for transaction management.Supports JOIN and complex queries. Uses normalized data structure. Requires vertical scaling to handle large volumes of data. Examples: MySQL, PostgreSQL, Oracle, SQL Server, Microsoft SQL Server.   
+Stands for Structured Query Language. 
+Suitable for structured data with predefined schema.
+Data is stored in tables with columns and rows. 
+Follows ACID properties (Atomicity, Consistency, Isolation, Durability) for transaction management.
+Supports JOIN and complex queries. Uses normalized data structure. 
+Requires vertical scaling to handle large volumes of data. 
+Examples: MySQL, PostgreSQL, Oracle, SQL Server, Microsoft SQL Server.   
     
 #### NoSQL
-Stands for Not Only SQL. Non-relational database management system. Suitable for unstructured and semi-structured data. Data is stored in collections or documents. Does not necessarily follow ACID properties.Does not support JOIN and complex queries. Uses denormalized data structure. Horizontal scaling is possible to handle large volumes of data. Examples: MongoDB, Cassandra, Couchbase, Amazon DynamoDB,Redis.
+Stands for Not Only SQL.  
+Suitable for unstructured and semi-structured data. 
+Data is stored in collections or documents. 
+Does not necessarily follow ACID properties.
+Does not support JOIN and complex queries. 
+Uses denormalized data structure. 
+Horizontal scaling is possible to handle large volumes of data. 
+Examples: MongoDB, Cassandra, Couchbase, Amazon DynamoDB,Redis.
+
+##### Relational vs Non-Relational DB's
+
+#### Relational DB
+#### Non-Relational DB
+
+##### Normalized vs Denormalized Data
+
 
 
 
@@ -324,8 +344,11 @@ It avoids the bad design of the software.
 ### JAVA
 
 #### Generics: 
-* Generics in Java provide a way to create classes, interfaces, and methods with type parameters. This allows you to write code that can work with different types without sacrificing type safety.
-> For example, if we write a method to search an element, then we can write like this:
+
+* What: (If I have to talk about generics, I can say that Generics) provide a way to create classes, interfaces, and methods with type parameters.
+* Why: (The biggest advantage of using generics is that) we can work with different types without sacrificing type safety.
+* How: (Lets take an example, )
+> if we write a method to search an element, then we can write like this:
 ```java
 private static Boolean search(List<String> list, String key) {}
 //we can write this using generics
