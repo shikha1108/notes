@@ -357,10 +357,26 @@ private static <T> Boolean search(List<T> list, T key) {}
 * What: (If I have to talk about generics, I can say that Generics) In Java is the process by which the Java Virtual Machine (JVM) automatically reclaims memory that is no longer in use by the program. Java uses an automatic garbage collector to manage memory, and this helps in preventing memory leaks and simplifies memory management for developers.
 
 #### Functional Interface: 
-* What: (If I have to talk about Fuctional Interface, I can say that Functional Interface) It is an interface that declares only one abstract method. 
+* What: (If I have to talk about Fuctional Interface, I can say that Functional Interface) Is an interface that declares only one abstract method. 
 Can still have multiple default or static methods, but one abstract method.
-Why:
-* Functional interfaces are crucial to use lambda expressions and functional programming features introduced in Java 8.
+* Why: Functional interfaces are crucial to use lambda expressions and functional programming features introduced in Java 8.
+* How: (Lets take an example,)
+>We created a functional interface with have one abstract method and additionally static method. 
+```java
+interface MyFunctionalInterface {
+    void myMethod(); // Abstract method
+
+    // Additional default or static methods are allowed
+    default void anotherMethod() {
+        // Implementation
+    }
+}
+
+// Using a lambda expression to instantiate the functional interface
+MyFunctionalInterface myObj = () -> {
+    // Implementation of myMethod
+};
+```
 
 
 #### Java Releases:
