@@ -283,11 +283,10 @@ ACID stands for Atomicity, Consistency, Isolation, Durability.
 * **D stands for Durabiltiy**: The changes of a succesful transaction occurs even if the system fails because of any issue.
 
 #### Database Indexes
-* Indexes are created to improve the speed of reading the data from a database table.
-* We can create indexes on one or more columns of a table.
-* Indexes use data structures like B+ trees.
-
-> For example, if we have a table students, and we want to run the select query:
+ * What (If I have to talk about Database Indexe, I can say that Database Indexes) Are created to improve the speed of reading the data from a database table.
+* Why(The Biggets adavantage of Database Indexes) use data structures like B+ trees.
+* How (We can create indexes on one or more columns of a table.)
+> Lets Take an example, if we have a table students, and we want to run the select query:
 `SELECT * FROM STUDENTS WHERE NAME = 'BRUNO'`. It will be slower if there is no index on the table. But if we create and index on column **name**, it will become faster.
 
 #### Connection pooling
@@ -355,11 +354,10 @@ private static <T> Boolean search(List<T> list, T key) {}
 ``` 
 
 #### Garbage collection: 
-* In Java is the process by which the Java Virtual Machine (JVM) automatically reclaims memory that is no longer in use by the program. Java uses an automatic garbage collector to manage memory, and this helps in preventing memory leaks and simplifies memory management for developers.
+* What: (If I have to talk about generics, I can say that Generics) In Java is the process by which the Java Virtual Machine (JVM) automatically reclaims memory that is no longer in use by the program. Java uses an automatic garbage collector to manage memory, and this helps in preventing memory leaks and simplifies memory management for developers.
 
 #### Functional Interface: 
-What:
-* It is an interface that declares only one abstract method. 
+* What: (If I have to talk about Fuctional Interface, I can say that Functional Interface) It is an interface that declares only one abstract method. 
 Can still have multiple default or static methods, but one abstract method.
 Why:
 * Functional interfaces are crucial to use lambda expressions and functional programming features introduced in Java 8.
@@ -369,7 +367,7 @@ Why:
 * The lastest java release is JAVA 21.
 
 #### Multithreading in JAVA: 
-Multithreading in Java is a process of executing multiple threads simultaneously.
+* What:  (If I have to talk about multiple threading in java, I can say that M.Threading in java) In Java is a process of executing multiple threads simultaneously.
 A thread is a lightweight sub-process, the smallest unit of processing. Multiprocessing and multithreading, both are used to achieve multitasking.
 
 
