@@ -344,7 +344,6 @@ It avoids the bad design of the software.
 ### JAVA
 
 #### Generics: 
-
 * What: (If I have to talk about generics, I can say that Generics) provide a way to create classes, interfaces, and methods with type parameters.
 * Why: (The biggest advantage of using generics is that) we can work with different types without sacrificing type safety.
 * How: (Lets take an example, )
@@ -359,8 +358,12 @@ private static <T> Boolean search(List<T> list, T key) {}
 * In Java is the process by which the Java Virtual Machine (JVM) automatically reclaims memory that is no longer in use by the program. Java uses an automatic garbage collector to manage memory, and this helps in preventing memory leaks and simplifies memory management for developers.
 
 #### Functional Interface: 
-* A functional interface is an interface that declares only one abstract method. 
-It can still have multiple default or static methods, but it must have exactly one abstract method.
+What:
+* It is an interface that declares only one abstract method. 
+Can still have multiple default or static methods, but one abstract method.
+Why:
+* Functional interfaces are crucial to use lambda expressions and functional programming features introduced in Java 8.
+
 
 #### Java Releases:
 * The lastest java release is JAVA 21.
