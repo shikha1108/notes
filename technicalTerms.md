@@ -383,8 +383,10 @@ MyFunctionalInterface myObj = () -> {
 * The lastest java release is JAVA 21.
 
 #### Multithreading in JAVA: 
-* What:  (If I have to talk about multiple threading in java, I can say that M.Threading in java) In Java is a process of executing multiple threads simultaneously.
-A thread is a lightweight sub-process, the smallest unit of processing. Multiprocessing and multithreading, both are used to achieve multitasking.
+* What:  (If I have to talk about multiple threading in java, I can say that M.Threading) In Java is a process of executing multiple threads simultaneously.
+A thread is a lightweight sub-process, the smallest unit of processing.
+* Why: (The importance of M.T in Java)
+
 
 
 #### 
