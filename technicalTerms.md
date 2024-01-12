@@ -283,10 +283,10 @@ ACID stands for Atomicity, Consistency, Isolation, Durability.
 * **D stands for Durabiltiy**: The changes of a succesful transaction occurs even if the system fails because of any issue.
 
 #### Database Indexes
- * What (If I have to talk about Database Indexe, I can say that Database Indexes) Are created to improve the speed of reading the data from a database table.
-* Why(The Biggets adavantage of Database Indexes) use data structures like B+ trees.
-* How (We can create indexes on one or more columns of a table.)
-> Lets Take an example, if we have a table students, and we want to run the select query:
+ * What (If I have to talk about Database Indexes, I can say that Database Indexes)  is a data structure technique used to locate and quickly access data in databases. Are created to improve the speed of reading the data from a database table. We can create indexes on one or more columns of a table.
+* Why(The Biggets adavantage of Database Indexes) We can reterive data faster and use data structures like B+ trees.
+* How (Lets Take an example,)
+> If we have a table students, and we want to run the select query:
 `SELECT * FROM STUDENTS WHERE NAME = 'BRUNO'`. It will be slower if there is no index on the table. But if we create and index on column **name**, it will become faster.
 
 #### Connection pooling
@@ -354,7 +354,7 @@ private static <T> Boolean search(List<T> list, T key) {}
 ``` 
 
 #### Garbage collection: 
-* What: (If I have to talk about generics, I can say that Generics) In Java is the process by which the Java Virtual Machine (JVM) automatically reclaims memory that is no longer in use by the program. Java uses an automatic garbage collector to manage memory, and this helps in preventing memory leaks and simplifies memory management for developers.
+* What: (If I have to talk about garbage collection, I can say that) In Java is the process by which the Java Virtual Machine (JVM) automatically reclaims memory that is no longer in use by the program. Java uses an automatic garbage collector to manage memory, and this helps in preventing memory leaks and simplifies memory management for developers.
 
 #### Functional Interface: 
 * What: (If I have to talk about Fuctional Interface, I can say that Functional Interface) Is an interface that declares only one abstract method. 
@@ -385,9 +385,28 @@ MyFunctionalInterface myObj = () -> {
 #### Multithreading in JAVA: 
 * What:  (If I have to talk about multiple threading in java, I can say that M.Threading) In Java is a process of executing multiple threads simultaneously.
 A thread is a lightweight sub-process, the smallest unit of processing.
-* Why: (The importance of M.T in Java)
+* Why: (The importance of M.T in Java) Improved  system performance, application can remain more responsive. It enables parallelism and reduces processing time.
+* How:(Lets take an example)
+Extending Thread Class:
 
+>Create a new class that extends the Thread class.
+Override the run() method with the code to be executed in the new thread.
+Instantiate the new class and call its start() method to begin execution.
+java.
+```java
+class MyThread extends Thread {
+    public void run() {
+        // Code to be executed in the new thread
+    }
+}
 
+public class Main {
+    public static void main(String[] args) {
+        MyThread myThread = new MyThread();
+        myThread.start();
+    }
+}
+```
 
 #### 
 Hibernate vs JPA
