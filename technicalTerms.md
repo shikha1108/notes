@@ -248,6 +248,8 @@ It is a unique number identifier that for each computer to connect the interet f
 Epoch in computing can mean the starting point for measuring time (like January 1, 1970, in Unix) or a full cycle through a dataset during machine learning training.
 
 ### Design patterns
+
+* What (If I have to talk about , I can say that)
 They are reusable in multiple projects.
 They provide the solutions that help to define the system architecture.
 They capture the software engineering experiences.
@@ -261,20 +263,28 @@ They are well-proved and testified solutions since they have been built upon the
 >Amazon Web Services (AWS) is a cloud computing platform provided by Amazon. It is a cloud services, computing power, storage, databases, machine learning, analytics, content delivery.
 
 #### EC2 (Elastic Compute Cloud):
+
+* What (If I have to talk about , I can say that)
 Amazon EC2 is a web service that provides resizable compute capacity in the cloud. 
 It allows users to run virtual servers, known as "instances," in the AWS cloud. 
 EC2 instances come in various types and sizes, each optimized for different use cases.
 #### S3 (Simple Storage Service):
+
+* What (If I have to talk about , I can say that)
 It is an object storage service that allows users to store and retrieve any amount of data at any time. 
 It is designed for durability, scalability, and high-performance storage. 
 Data is stored in containers called "buckets," and each object in a bucket is assigned a unique key.
 #### CloudWatch:
+
+* What (If I have to talk about , I can say that)
 Amazon CloudWatch is a monitoring and observability service for AWS resources and applications.
 It provides data and actionable insights for monitoring the performance of applications, resources, and services in real-time.
 
 ### DATABASE 
 
 #### DB ACID property
+
+* What (If I have to talk about Acid properties, I can say that ACID property) Is an acronym that represents a set of properties that related to the reliability of databse transactions.
 ACID stands for Atomicity, Consistency, Isolation, Durability.
 > A transaction is a single logical unit of work that accesses and possibly modifies the contents of a database. Transactions access data using read and write operations. In order to maintain consistency in a database, before and after the transaction, certain properties are followed. are called ACID properties.
 * **A stands for Atomicity**: The entire transaction takes place at once or does not happen at all.
@@ -283,20 +293,22 @@ ACID stands for Atomicity, Consistency, Isolation, Durability.
 * **D stands for Durabiltiy**: The changes of a succesful transaction occurs even if the system fails because of any issue.
 
 #### Database Indexes
- * What (If I have to talk about Database Indexes, I can say that Database Indexes)  is a data structure technique used to locate and quickly access data in databases. Are created to improve the speed of reading the data from a database table. We can create indexes on one or more columns of a table.
-* Why(The Biggets adavantage of Database Indexes) We can reterive data faster and use data structures like B+ trees.
+ * What (If I have to talk about Database Indexes, I can say that Database Indexes) Is a data structure technique used to locate and quickly access data in databases. 
+* Why(The Biggets adavantage of Database Indexes) Are used to optimize query performance by reducing the number of rows that need to be scanned or sorted. They are particularly beneficial for tables with a large amount of data, as they speed up data retrieval operations.
 * How (Lets Take an example,)
 > If we have a table students, and we want to run the select query:
 `SELECT * FROM STUDENTS WHERE NAME = 'BRUNO'`. It will be slower if there is no index on the table. But if we create and index on column **name**, it will become faster.
 
 #### Connection pooling
-DB maintains a “pool” of open connections.
-It is a way to reduce the cost of opening and closing connections.
-It passes connections from one database operation to another as needed. 
+* What (If I have to talk about connection pooling, I can say that connetcion pooling) Is a technique used in software development to efficiently manage and reuse database connections.
+* Why (The main advantage of connection pooling) It is a way to reduce the cost of opening and closing connections.It passes connections from one database operation to another as needed. 
+* How 
 In one of my service we are using Hikari connection pooling.
 
 ##### SQL vs NoSQL
 #### SQL
+
+* What (If I have to talk about , I can say that)
 Stands for Structured Query Language. 
 Suitable for structured data with predefined schema.
 Data is stored in tables with columns and rows. 
@@ -306,6 +318,8 @@ Requires vertical scaling to handle large volumes of data.
 Examples: MySQL, PostgreSQL, Oracle, SQL Server, Microsoft SQL Server.   
     
 #### NoSQL
+
+* What (If I have to talk about , I can say that)
 Stands for Not Only SQL.  
 Suitable for unstructured and semi-structured data. 
 Data is stored in collections or documents. 
@@ -326,6 +340,8 @@ Examples: MongoDB, Cassandra, Couchbase, Amazon DynamoDB,Redis.
 
 
 ### SOLID Principles
+
+* What (If I have to talk about SOLID Principles, I can say that)
 >It reduces the dependencies so that a block of code can be changed without affecting the other code blocks.
 The principles intended to make design easier, understandable.
 By using the principles, the system is maintainable, testable, scalable, and reusable.
@@ -354,12 +370,15 @@ private static <T> Boolean search(List<T> list, T key) {}
 ``` 
 
 #### Garbage collection: 
-* What: (If I have to talk about garbage collection, I can say that) In Java is the process by which the Java Virtual Machine (JVM) automatically reclaims memory that is no longer in use by the program. Java uses an automatic garbage collector to manage memory, and this helps in preventing memory leaks and simplifies memory management for developers.
+* What: (If I have to talk about garbage collection, I can say that garbage collection) In Java is the automatic process of reclaiming memory occupied by the objects that is no longer rechable or not in use by the program. 
+* Why: (The biggest advantage of using garbage collectionis that) Is to prevent memory leaks and improve the overall memory management of java programs.
+* How: It operates in the background, and developers don't explicitly free memory as in languages like C++. Instead, the Java Virtual Machine (JVM) is responsible for managing memory and performing garbage collection.
+Java has different garbage collection algorithms, such as Serial, Parallel, CMS (Concurrent Mark-Sweep), G1 (Garbage First), etc.
 
 #### Functional Interface: 
 * What: (If I have to talk about Fuctional Interface, I can say that Functional Interface) Is an interface that declares only one abstract method. 
 Can still have multiple default or static methods, but one abstract method.
-* Why: Functional interfaces are crucial to use lambda expressions and functional programming features introduced in Java 8.
+* Why: (The main adavantage of using Functional interfaces) Are crucial to use lambda expressions and functional programming features introduced in Java 8.
 * How: (Lets take an example,)
 >We created a functional interface with have one abstract method and additionally static method. 
 ```java
@@ -385,10 +404,8 @@ MyFunctionalInterface myObj = () -> {
 #### Multithreading in JAVA: 
 * What:  (If I have to talk about multiple threading in java, I can say that M.Threading) In Java is a process of executing multiple threads simultaneously.
 A thread is a lightweight sub-process, the smallest unit of processing.
-* Why: (The importance of M.T in Java) Improved  system performance, application can remain more responsive. It enables parallelism and reduces processing time.
-* How:(Lets take an example)
-Extending Thread Class:
-
+* Why: (The biggest advantage of using M.T in Java)  Can Improved  system performance, can remain application more responsive. It enables parallelism and reduces processing time.
+* How: (Lets take an example of extending a thread class ) 
 >Create a new class that extends the Thread class.
 Override the run() method with the code to be executed in the new thread.
 Instantiate the new class and call its start() method to begin execution.
@@ -411,24 +428,24 @@ public class Main {
 #### 
 Hibernate vs JPA
 ### Hibernate
-* Hibernate is described in org.hibernate package.
-* Hibernate is an Object-Relational Mapping (ORM) tool that is used to save the Java objects in the relational database system. 
+
+* What (If I have to talk about Hiebernate , I can say that) Hibernate is an Object-Relational Mapping (ORM) tool that is used to save the Java objects in the relational database system.
+* Hibernate is described in org.hibernate package. 
 * Hibernate is an implementation of JPA. Hence, the common standard which is given by JPA is followed by Hibernate.
 * It is used in mapping Java data types with SQL data types and database tables.
-*
-*
+
+
 
 ### JPA
 * described in javax.persistence package.
 * It describes the handling of relational data in Java applications.                                                                        
 * It is not an implementation. It is only a Java specification. 
 * It is a standard API that permits to perform database operations.
-*
-
 
 ### Spring 
 
 #### Spring Modules:
+* What (If I have to talk about spring modules, I can say that spring modules) 
 The Spring framework comprises of many modules such as core, beans, context, expression language, AOP, Aspects, Instrumentation, JDBC, ORM, OXM, JMS, Transaction, Web, Servlet, Struts etc. These modules are grouped into Test, Core Container, AOP, Aspects, Instrumentation, Data Access / Integration, Web (MVC / Remoting).
 
 
@@ -463,9 +480,9 @@ It takes more time to achieve the same.
 
 
 #### Dependency Injection:
-It is a design pattern that removes the dependency of the programs. 
-In such case we provide the information from the external source such as XML file. 
-It makes our code loosely coupled and easier for testing. 
+* What(If I have talk about Dependency Injection. I can say that Dependency Injection) Is a design pattern in software development where the components of a system are provided with their dependencies (external services, objects, or resources) rather than creating or managing them internally.
+* Why(The main adavantage of Dependency Injection)promotes loose coupling between components, making the code more modular, testable, maintainable. 
+* How (There are three common types of dependency injection: Constructor D.I, Setter, Method)
 ```java
 public static void main(String[] args) {
     List<String> list = new ArrayList<>(); // list is dependency and we inject ArrayList here
@@ -481,6 +498,8 @@ public static void main(String[] args) {
 ### Rabbit MQ vs Kafka 
 
 ### Rabbit
+
+* What (If I have to talk about , I can say that)
 * RabbitMQ through clustering and high available queues provides high-performance data replication. 
 it also provides high availability.
 * It can also process millions of messages within a second, but it needs more number of the hardware.
@@ -490,6 +509,8 @@ it also provides high availability.
 * It Does not support complex routing scenarios.
 
 ### Kafka
+
+* What (If I have to talk about , I can say that)
 * With the help of zookeeper, it manages the state of the Kafka cluster and supports high availability.
 * It can process millions of messages in a second with less number of the hardware.
 * There are replicated brokers available in Kafka, which works when the master broker is down.
