@@ -371,7 +371,7 @@ private static <T> Boolean search(List<T> list, T key) {}
 
 #### Garbage collection: 
 * What: (If I have to talk about garbage collection, I can say that garbage collection) In Java is the automatic process of reclaiming memory occupied by the objects that is no longer rechable or not in use by the program. 
-* Why: (The biggest advantage of using garbage collectionis that) Is to prevent memory leaks and improve the overall memory management of java programs.
+* Why: (The biggest advantage of using garbage collection is that) To prevent memory leaks and improve the overall memory management of java programs.
 * How: It operates in the background, and developers don't explicitly free memory as in languages like C++. Instead, the Java Virtual Machine (JVM) is responsible for managing memory and performing garbage collection.
 Java has different garbage collection algorithms, such as Serial, Parallel, CMS (Concurrent Mark-Sweep), G1 (Garbage First), etc.
 
