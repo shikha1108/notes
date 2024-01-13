@@ -378,7 +378,7 @@ Java has different garbage collection algorithms, such as Serial, Parallel, CMS 
 #### Functional Interface: 
 * What: (If I have to talk about Fuctional Interface, I can say that Functional Interface) Is an interface that declares only one abstract method. 
 Can still have multiple default or static methods, but one abstract method.
-* Why: (The main adavantage of using Functional interfaces) Are crucial to use lambda expressions and functional programming features introduced in Java 8.
+* Why: (The biggest adavantage of using Functional interfaces) Are crucial to use lambda expressions and functional programming features introduced in Java 8.
 * How: (Lets take an example,)
 >We created a functional interface with have one abstract method and additionally static method. 
 ```java
@@ -402,7 +402,7 @@ MyFunctionalInterface myObj = () -> {
 * The lastest java release is JAVA 21.
 
 #### Multithreading in JAVA: 
-* What:  (If I have to talk about multiple threading in java, I can say that M.Threading) In Java is a process of executing multiple threads simultaneously.
+* What:  (If I have to talk about Multithreading in java, I can say that M.Threading) In Java is a process of executing multiple threads simultaneously.
 A thread is a lightweight sub-process, the smallest unit of processing.
 * Why: (The biggest advantage of using M.T in Java)  Can Improved  system performance, can remain application more responsive. It enables parallelism and reduces processing time.
 * How: (Lets take an example of extending a thread class ) 
