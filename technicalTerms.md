@@ -446,18 +446,20 @@ Hibernate vs JPA
 
 #### Spring Modules:
 * What (If I have to talk about spring modules, I can say that spring modules) 
-The Spring framework comprises of many modules such as core, beans, context, expression language, AOP, Aspects, Instrumentation, JDBC, ORM, OXM, JMS, Transaction, Web, Servlet, Struts etc. These modules are grouped into Test, Core Container, AOP, Aspects, Instrumentation, Data Access / Integration, Web (MVC / Remoting).
-
+refers to various components or extensions provided by the spring framework.
+* Why (The biggest adavantage of using spring modules) Are that the modular nature of spring allows developers to use only the parts of the framework that are necessary for their applications. And this promotes a more lightweight and flexible approch to bulid software.
+* How (Spring modules are organized to adress different concerns in application developement. For example, the Spring Core Container module provides essential functionalities such as dependency injection and aspect-oriented programming. Other modules, like Spring MVC (Model-View-Controller) or Spring Security, cater to specific aspects of web development and security, respectively. We can use or include these modules in our projects by configuring the dependencies in build systems and utilizing the relevant components provided by each module. This modular approach simplifies development, maintenance, and testing of complex enterprise applications.)
 
 #### Spring vs Spring Boot:
 * Spring
-is a widely used Java EE framework for building applications.
+is Java framework for building enterprise applications.
 The primary feature of the Spring Framework is dependency injection.
 Developers manually define dependencies for the Spring project in pom.xml.
 No embedded server.
 * Spring Boot
 Framework is widely used to develop REST APIs.
 The primary feature of Spring Boot is Autoconfiguration. It automatically configures the classes based on the requirement.
+* Why (The biggest adavntage of using spring boot) is useful for quickly setting up and deploying applications without spending much time on boilerplate code and configuration. Spring Boot simplifies the development process, making it easier to get started with Spring-based projects.
 It reduces boilerplate code.
 This application have jar file.
 Embedded server such as Jetty and Tomcat.
@@ -481,7 +483,7 @@ It takes more time to achieve the same.
 
 #### Dependency Injection:
 * What(If I have talk about Dependency Injection. I can say that Dependency Injection) Is a design pattern in software development where the components of a system are provided with their dependencies (external services, objects, or resources) rather than creating or managing them internally.
-* Why(The main adavantage of Dependency Injection)promotes loose coupling between components, making the code more modular, testable, maintainable. 
+* Why(The biggest adavantage of using Dependency Injection)promotes loose coupling between components, making the code more modular, testable, maintainable. 
 * How (There are three common types of dependency injection: Constructor D.I, Setter, Method)
 ```java
 public static void main(String[] args) {
