@@ -247,18 +247,6 @@ It is a unique number identifier that for each computer to connect the interet f
 ### Epoch
 Epoch in computing can mean the starting point for measuring time (like January 1, 1970, in Unix) or a full cycle through a dataset during machine learning training.
 
-### Design patterns
-
-* What (If I have to talk about , I can say that)
-They are reusable in multiple projects.
-They provide the solutions that help to define the system architecture.
-They capture the software engineering experiences.
-They provide transparency to the design of an application.
-They are well-proved and testified solutions since they have been built upon the knowledge and experience of expert software developers.
-
-
-### Hibernate and Jvm
-
 ### AWS
 >Amazon Web Services (AWS) is a cloud computing platform provided by Amazon. It is a cloud services, computing power, storage, databases, machine learning, analytics, content delivery.
 
@@ -357,6 +345,14 @@ It avoids the bad design of the software.
  
 
 ### JAVA
+
+### Design patterns
+* What (If I have to talk about design pattern, I can say that design pattern)  In Java are reusable solutions to common problems encountered in software design. They represent best practices for solving specific issues and provide a way to create more maintainable, flexible, and scalable software.
+* Why (The biggest advantage of using design pattern) Are promte code organization and maintainablity.
+* How: There are several design patterns in Java:
+Singleton Pattern: Ensures a class has only one instance and provides a global point of access to it.
+Factory Method Pattern: Defines an interface for creating an object but lets subclasses alter the type of objects that will be created.
+Abstract Factory Pattern: Provides an interface for creating families of related or dependent objects without specifying their concrete classes.
 
 #### Generics: 
 * What: (If I have to talk about generics, I can say that Generics) provide a way to create classes, interfaces, and methods with type parameters.
@@ -496,6 +492,14 @@ public static void main(String[] args) {
 
   }
 ```
+#### Class vs Object
+#### Static vs NonStatic
+#### Concurrent Hashmap
+#### Design patterns
+#### Collections
+#### Inherritance
+#### Constructor
+#### lambda expression
 
 ### Rabbit MQ vs Kafka 
 
