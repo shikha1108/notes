@@ -348,7 +348,7 @@ It avoids the bad design of the software.
 
 ### Design patterns
 * What (If I have to talk about design pattern, I can say that design pattern)  In Java are reusable solutions to common problems encountered in software design. They represent best practices for solving specific issues and provide a way to create more maintainable, flexible, and scalable software.
-* Why (The biggest advantage of using design pattern) Are promte code organization and maintainablity.
+* Why (The biggest advantage of using design pattern) promtes code organization and maintainablity.
 * How: There are several design patterns in Java:
 Singleton Pattern: Ensures a class has only one instance and provides a global point of access to it.
 Factory Method Pattern: Defines an interface for creating an object but lets subclasses alter the type of objects that will be created.
@@ -404,7 +404,7 @@ A thread is a lightweight sub-process, the smallest unit of processing.
 * How: (Lets take an example of extending a thread class ) 
 >Create a new class that extends the Thread class.
 Override the run() method with the code to be executed in the new thread.
-Instantiate the new class and call its start() method to begin execution.
+Instantiate the new class and call its run() method to begin execution.
 java.
 ```java
 class MyThread extends Thread {
@@ -416,7 +416,7 @@ class MyThread extends Thread {
 public class Main {
     public static void main(String[] args) {
         MyThread myThread = new MyThread();
-        myThread.start();
+        myThread.run();
     }
 }
 ```
