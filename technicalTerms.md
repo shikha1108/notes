@@ -424,7 +424,6 @@ public class Main {
 #### 
 Hibernate vs JPA
 ### Hibernate
-
 * What (If I have to talk about Hiebernate , I can say that) Hibernate is an Object-Relational Mapping (ORM) tool that is used to save the Java objects in the relational database system.
 * Hibernate is described in org.hibernate package. 
 * Hibernate is an implementation of JPA. Hence, the common standard which is given by JPA is followed by Hibernate.
@@ -438,6 +437,20 @@ Hibernate vs JPA
 * It is not an implementation. It is only a Java specification. 
 * It is a standard API that permits to perform database operations.
 
+#### JDK, JRE, and JVM
+
+### JVM
+JVM is an acronym for Java Virtual Machine; it is an abstract machine which provides the runtime environment in which Java bytecode can be executed. It is a specification which specifies the working of Java Virtual Machine. Its implementation has been provided by Oracle and other companies. Its implementation is known as JRE.
+
+JVMs are available for many hardware and software platforms (so JVM is platform dependent). It is a runtime instance which is created when we run the Java class. There are three notions of the JVM: specification, implementation, and instance.
+
+### JRE
+JRE stands for Java Runtime Environment. It is the implementation of JVM. The Java Runtime Environment is a set of software tools which are used for developing Java applications. It is used to provide the runtime environment. It is the implementation of JVM. It physically exists. It contains a set of libraries + other files that JVM uses at runtime.
+
+### JDK
+JDK is an acronym for Java Development Kit. It is a software development environment which is used to develop Java applications and applets. It physically exists. It contains JRE + development tools. JDK is an implementation of any one of the below given Java Platforms released by Oracle Corporation:
+
+
 ### Spring 
 
 #### Spring Modules:
@@ -448,7 +461,7 @@ refers to various components or extensions provided by the spring framework.
 
 #### Spring vs Spring Boot:
 * Spring
-is Java framework for building enterprise applications.
+is Java framework for building enterprise edition applications.
 The primary feature of the Spring Framework is dependency injection.
 Developers manually define dependencies for the Spring project in pom.xml.
 No embedded server.
@@ -493,10 +506,14 @@ public static void main(String[] args) {
   }
 ```
 #### Class vs Object
+
+
 #### Static vs NonStatic
+
 #### Concurrent Hashmap
-#### Design patterns
+
 #### Collections
+
 #### Inherritance
 #### Constructor
 #### lambda expression
