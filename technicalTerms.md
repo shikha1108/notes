@@ -272,7 +272,7 @@ It provides data and actionable insights for monitoring the performance of appli
 
 #### DB ACID property
 
-* What (If I have to talk about Acid properties, I can say that ACID property) Is an acronym that represents a set of properties that related to the reliability of databse transactions.
+* What (If I have to talk about Acid properties, I can say that ACID properties) Are an acronym that represents a set of properties that related to the reliability of databse transactions.
 ACID stands for Atomicity, Consistency, Isolation, Durability.
 > A transaction is a single logical unit of work that accesses and possibly modifies the contents of a database. Transactions access data using read and write operations. In order to maintain consistency in a database, before and after the transaction, certain properties are followed. are called ACID properties.
 * **A stands for Atomicity**: The entire transaction takes place at once or does not happen at all.
