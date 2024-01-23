@@ -271,7 +271,6 @@ It provides data and actionable insights for monitoring the performance of appli
 ### DATABASE 
 
 #### DB ACID property
-
 * What (If I have to talk about Acid properties, I can say that ACID properties) Are an acronym that represents a set of properties that related to the reliability of databse transactions.
 ACID stands for Atomicity, Consistency, Isolation, Durability.
 > A transaction is a single logical unit of work that accesses and possibly modifies the contents of a database. Transactions access data using read and write operations. In order to maintain consistency in a database, before and after the transaction, certain properties are followed. are called ACID properties.
@@ -515,8 +514,38 @@ public static void main(String[] args) {
 #### Collections
 
 #### Inherritance
+It is concept that allows a class methods and feilds of another class.
+### Why
+
 #### Constructor
-#### lambda expression
+
+
+#### Lambda expression
+
+#### Throw and Throws
+### Throw
+# What () Statement in Java is used to throw an exception. We can throw exception in any try catch (Block : Some pice of which is return together ) or if else. It is followed by an instance of the Throwable class (usually an exception object) that represents the error or exceptional condition. 
+# Why () Statement when we want to create and throw a custom exception or signal that something unexpected or exceptional has occurred during program execution.
+### Throws
+# What () Is used in the method signature to indicate that a method might throw one or more types of exceptions. When a method includes a throws clause, it means that the method is not handling the exceptions within itself, and the responsibility of handling those exceptions is delegated to the calling method or, ultimately, to the Java runtime environment.
+# Why () The throws clause is used to declare the exceptions that a method might throw. It allows the method to indicate to the calling code the types of exceptions it can throw, so that the calling code can choose to handle those exceptions or let them propagate up the call stack.
+
+
+
+#### Static
+# What () In Java is used to declare members (fields, methods, and nested classes) that belong to the class rather than instances of the class. When a member is declared as static, it means there is only one copy of that member shared by all instances of the class, and it can be accessed without creating an instance of the class.
+# Why () 
+* Fields (Static Variables):
+static fields are shared among all instances of the class. They are typically used for constants or variables that should be common to all instances.
+* Methods (Static Methods):
+static methods are associated with the class rather than with instances. They are often used for utility methods that don't depend on the state of any particular instance.
+* Nested Classes (Static Nested Classes):
+When a class is declared as static within another class, it is a static nested class. It can be instantiated without an instance of the outer class and can access the static members of the outer class.
+#### Imutable 
+# What () Immutability refers to the state of an object that cannot be modified after it is created. Once an immutable object is instantiated, its state (the values of its fields) cannot be changed. WE use final keyword to declare a object immutable.
+# Why () Consistency, Thread safety, Hashcode Stability Here consistency means immutability ensures that an object's state remains constant throughout its lifetime, making it easier to reason about and preventing unexpected changes. 
+
+
 
 ### Rabbit MQ vs Kafka 
 
