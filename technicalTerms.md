@@ -558,21 +558,22 @@ Types of collections are list, set, map, queue.
 
 
 ### Inherritance
-# What()
+* What()
 It is concept that allows a class methods and feilds of another class.
 The idea behind inheritance in Java is that you can create new classes that are built upon existing classes. When you inherit from an existing class, you can reuse methods and fields of the parent class. Moreover, you can add new methods and fields in your current class also.
 Inheritance represents the IS-A relationship which is also known as a parent-child relationship.
-# Why()
+* Why()
 For Method Overriding (so runtime polymorphism can be achieved).
 For Code Reusability.
-# How()
+* How()
 
 
 ### Constructor
 ### Thread pool
-# What() Is a collection of worker threads that are managed by a thread pool manager.It is a design pattern used to manage and control the number of threads that execute concurrently in an application.
-# Why()Resource Management: Thread pools manage the creation and destruction of threads, reducing the overhead associated with creating new threads. Performance: Thread pools can improve performance by reusing threads for multiple tasks, avoiding the overhead of creating and destroying threads frequently.
-# How()
+
+* What() Is a collection of worker threads that are managed by a thread pool manager.It is a design pattern used to manage and control the number of threads that execute concurrently in an application.
+* Why()Resource Management: Thread pools manage the creation and destruction of threads, reducing the overhead associated with creating new threads. Performance: Thread pools can improve performance by reusing threads for multiple tasks, avoiding the overhead of creating and destroying threads frequently.
+* How()
 ```java
 
 ```
@@ -581,13 +582,16 @@ For Code Reusability.
 
 
 ### Lambda expression
-# What() A lambda expression is a short block of code which takes in parameters and returns a value. Lambda expressions are similar to methods, but they do not need a name and they can be implemented right in the body of a method.
-# Why(The biggest adavantage of using) Lambda expressions offer several benefits:
+
+* What() A lambda expression is a short block of code which takes in parameters and returns a value. Lambda expressions are similar to methods, but they do not need a name and they can be implemented right in the body of a method.
+  
+
+* Why(The biggest adavantage of using) Lambda expressions offer several benefits:
 Conciseness: They allow you to write compact code, especially when working with functional interfaces that require only a single abstract method.
 Readability: Lambda expressions often make code more readable by reducing boilerplate code, particularly when passing behavior as parameters.
 Flexibility: They enable more flexible and expressive programming constructs, such as functional programming paradigms like map-reduce operations.
 Improved APIs: Lambda expressions facilitate the use of functional interfaces, enabling more streamlined APIs in libraries and frameworks.
-# How()
+* How()
 // Lambda expression to square a number
 Function<Integer, Integer> square = (num) -> num * num;
 
@@ -596,18 +600,23 @@ int result = square.apply(5); // Returns 25
 
 
 #### Throw and Throws
-### Throw
-# What () Statement in Java is used to throw an exception. We can throw exception in any try catch (Block : Some pice of which is return together ) or if else. It is followed by an instance of the Throwable class (usually an exception object) that represents the error or exceptional condition. 
-# Why () Statement when we want to create and throw a custom exception or signal that something unexpected or exceptional has occurred during program execution.
+
+# Throw
+* What () Statement in Java is used to throw an exception. We can throw exception in any try catch (Block : Some pice of which is return together ) or if else. It is followed by an instance of the Throwable class (usually an exception object) that represents the error or exceptional condition.
+
+* Why () Statement when we want to create and throw a custom exception or signal that something unexpected or exceptional has occurred during program execution.
+
 ### Throws
-# What () Is used in the method signature to indicate that a method might throw one or more types of exceptions. When a method includes a throws clause, it means that the method is not handling the exceptions within itself, and the responsibility of handling those exceptions is delegated to the calling method or, ultimately, to the Java runtime environment.
-# Why () The throws clause is used to declare the exceptions that a method might throw. It allows the method to indicate to the calling code the types of exceptions it can throw, so that the calling code can choose to handle those exceptions or let them propagate up the call stack.
+
+* What () Is used in the method signature to indicate that a method might throw one or more types of exceptions. When a method includes a throws clause, it means that the method is not handling the exceptions within itself, and the responsibility of handling those exceptions is delegated to the calling method or, ultimately, to the Java runtime environment.
+* Why () The throws clause is used to declare the exceptions that a method might throw. It allows the method to indicate to the calling code the types of exceptions it can throw, so that the calling code can choose to handle those exceptions or let them propagate up the call stack.
 
 
 
 ### Static
-# What () In Java is used to declare members (fields, methods, and nested classes) that belong to the class rather than instances of the class. When a member is declared as static, it means there is only one copy of that member shared by all instances of the class, and it can be accessed without creating an instance of the class.
-# Why () 
+
+* What () In Java is used to declare members (fields, methods, and nested classes) that belong to the class rather than instances of the class. When a member is declared as static, it means there is only one copy of that member shared by all instances of the class, and it can be accessed without creating an instance of the class.
+* Why () 
 * Fields (Static Variables):
 static fields are shared among all instances of the class. They are typically used for constants or variables that should be common to all instances.
 * Methods (Static Methods):
@@ -616,8 +625,10 @@ static methods are associated with the class rather than with instances. They ar
 When a class is declared as static within another class, it is a static nested class. It can be instantiated without an instance of the outer class and can access the static members of the outer class.
 
 ### Imutable 
-# What () Immutability refers to the state of an object that cannot be modified after it is created. Once an immutable object is instantiated, its state (the values of its fields) cannot be changed. WE use final keyword to declare a object immutable.
-# Why () Consistency, Thread safety, Hashcode Stability Here consistency means immutability ensures that an object's state remains constant throughout its lifetime, making it easier to reason about and preventing unexpected changes. 
+
+* What () Immutability refers to the state of an object that cannot be modified after it is created. Once an immutable object is instantiated, its state (the values of its fields) cannot be changed. WE use final keyword to declare a object immutable.
+
+* Why () Consistency, Thread safety, Hashcode Stability Here consistency means immutability ensures that an object's state remains constant throughout its lifetime, making it easier to reason about and preventing unexpected changes. 
 
 
 
