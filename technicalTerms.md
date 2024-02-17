@@ -504,23 +504,96 @@ public static void main(String[] args) {
 
   }
 ```
-#### Class vs Object
+### Class vs Object
+What is a Class?
+Definition: In object-oriented programming (OOP), a class is a blueprint or template for creating objects. It defines the properties (attributes) and behaviors (methods) that objects of that class will have.
+Purpose: Classes serve as a blueprint from which individual objects are created. They encapsulate the common characteristics and behaviors shared by multiple objects.
+Example: In Java, a class might represent a "Car" and define attributes like "make", "model", and "color", as well as behaviors like "drive" and "stop".
+
+What is an Object?
+Definition: An object is an instance of a class. It is a concrete entity that exists in memory and has specific values for the attributes defined in its class. Objects are created based on the structure provided by classes.
+Purpose: Objects represent individual entities or instances in a program. They encapsulate state and behavior and can interact with each other through method calls.
+Example: Using the "Car" class example, an object would be an actual car instance created based on the "Car" class blueprint, such as a specific car with a make of "Toyota", model of "Camry", and color of "blue".
 
 
-#### Static vs NonStatic
+### Static vs NonStatic
+Definition: In Java, static is a keyword used to declare members (variables or methods) that belong to the class itself, rather than to instances of the class. When a member is declared static, it is shared among all instances of the class.
+Purpose: Static members are commonly used for constants, utility methods, or variables that should be shared across all instances of a class.
+Access: Static members can be accessed directly using the class name, without needing to create an instance of the class.
+Example:
+```java
+Copy code
+public class MyClass {
+    public static int staticVariable;
+    public static void staticMethod() {
+        // Method implementation
+    }
+}
+```
+# Nonstatic
+Definition: Non-static (or instance) members belong to individual instances (objects) of the class. Each object has its own copy of non-static members.
+Purpose: Non-static members represent the properties or behaviors specific to each instance of the class. They can vary in value from one object to another.
+Access: Non-static members are accessed through object references and are specific to each object.
+Example:
+```java
+Copy code
+public class MyClass {
+    public int instanceVariable;
+    public void instanceMethod() {
+        // Method implementation
+    }
+}
+```
 
-#### Concurrent Hashmap
+### Concurrent Hashmap
+What: Thread-safe implementation of a hash table in Java.
+Why: Ensures thread safety for concurrent access without external synchronization.
+How: Use it for high concurrency scenarios where multiple threads read and write concurrently.
 
-#### Collections
+### Collections
+What are Collections?
+Definition: Collections in Java are objects that group multiple elements into a single unit. They provide a way to store, manipulate, and retrieve groups of objects efficiently.
+Purpose: Collections are used to manage and manipulate groups of objects, providing operations like adding, removing, searching, and iterating over elements.
+Types of collections are list, set, map, queue.
 
-#### Inherritance
+
+### Inherritance
+# What()
 It is concept that allows a class methods and feilds of another class.
-### Why
+The idea behind inheritance in Java is that you can create new classes that are built upon existing classes. When you inherit from an existing class, you can reuse methods and fields of the parent class. Moreover, you can add new methods and fields in your current class also.
+Inheritance represents the IS-A relationship which is also known as a parent-child relationship.
+# Why()
+For Method Overriding (so runtime polymorphism can be achieved).
+For Code Reusability.
+# How()
 
-#### Constructor
+
+### Constructor
+### Thread pool
+# What() Is a collection of worker threads that are managed by a thread pool manager.It is a design pattern used to manage and control the number of threads that execute concurrently in an application.
+# Why()Resource Management: Thread pools manage the creation and destruction of threads, reducing the overhead associated with creating new threads. Performance: Thread pools can improve performance by reusing threads for multiple tasks, avoiding the overhead of creating and destroying threads frequently.
+# How()
+```java
+
+```
+
+### Stalk pool
 
 
-#### Lambda expression
+### Lambda expression
+# What() A lambda expression is a short block of code which takes in parameters and returns a value. Lambda expressions are similar to methods, but they do not need a name and they can be implemented right in the body of a method.
+# Why(The biggest adavantage of using) Lambda expressions offer several benefits:
+Conciseness: They allow you to write compact code, especially when working with functional interfaces that require only a single abstract method.
+Readability: Lambda expressions often make code more readable by reducing boilerplate code, particularly when passing behavior as parameters.
+Flexibility: They enable more flexible and expressive programming constructs, such as functional programming paradigms like map-reduce operations.
+Improved APIs: Lambda expressions facilitate the use of functional interfaces, enabling more streamlined APIs in libraries and frameworks.
+# How()
+// Lambda expression to square a number
+Function<Integer, Integer> square = (num) -> num * num;
+
+// Using the lambda expression
+int result = square.apply(5); // Returns 25
+
 
 #### Throw and Throws
 ### Throw
@@ -532,7 +605,7 @@ It is concept that allows a class methods and feilds of another class.
 
 
 
-#### Static
+### Static
 # What () In Java is used to declare members (fields, methods, and nested classes) that belong to the class rather than instances of the class. When a member is declared as static, it means there is only one copy of that member shared by all instances of the class, and it can be accessed without creating an instance of the class.
 # Why () 
 * Fields (Static Variables):
@@ -541,7 +614,8 @@ static fields are shared among all instances of the class. They are typically us
 static methods are associated with the class rather than with instances. They are often used for utility methods that don't depend on the state of any particular instance.
 * Nested Classes (Static Nested Classes):
 When a class is declared as static within another class, it is a static nested class. It can be instantiated without an instance of the outer class and can access the static members of the outer class.
-#### Imutable 
+
+### Imutable 
 # What () Immutability refers to the state of an object that cannot be modified after it is created. Once an immutable object is instantiated, its state (the values of its fields) cannot be changed. WE use final keyword to declare a object immutable.
 # Why () Consistency, Thread safety, Hashcode Stability Here consistency means immutability ensures that an object's state remains constant throughout its lifetime, making it easier to reason about and preventing unexpected changes. 
 
