@@ -569,6 +569,8 @@ For Code Reusability.
 
 
 ### Constructor
+
+
 ### Thread pool
 
 * What() Is a collection of worker threads that are managed by a thread pool manager.It is a design pattern used to manage and control the number of threads that execute concurrently in an application.
@@ -606,7 +608,7 @@ int result = square.apply(5); // Returns 25
 
 * Why () Statement when we want to create and throw a custom exception or signal that something unexpected or exceptional has occurred during program execution.
 
-### Throws
+# Throws
 
 * What () Is used in the method signature to indicate that a method might throw one or more types of exceptions. When a method includes a throws clause, it means that the method is not handling the exceptions within itself, and the responsibility of handling those exceptions is delegated to the calling method or, ultimately, to the Java runtime environment.
 * Why () The throws clause is used to declare the exceptions that a method might throw. It allows the method to indicate to the calling code the types of exceptions it can throw, so that the calling code can choose to handle those exceptions or let them propagate up the call stack.
@@ -654,23 +656,4 @@ it also provides high availability.
 * Multiple consumer types can subscribe to many messages to Kafka.
 * With high growth, it led to a good experience. But, it only supports Java clients.
 * It supports complex routing scenarios.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
